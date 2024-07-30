@@ -1,0 +1,1 @@
+/home/nano/ros2_uav_ws/src/px4_ros_com/src/examples/offboard_py/offboard_control.py

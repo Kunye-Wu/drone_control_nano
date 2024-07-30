@@ -1,0 +1,3 @@
+[console_scripts]
+hover_exec = nano_test_pkg.hover:main
+open_loop_exec = nano_test_pkg.open_loop:main

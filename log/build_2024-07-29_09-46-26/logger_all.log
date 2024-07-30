@@ -1,0 +1,424 @@
+[0.588s] DEBUG:colcon:Command line arguments: ['/home/nano/.local/bin/colcon', 'build', '--symlink-install']
+[0.588s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9b91c820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9ba45960>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9ba45960>>)
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.776s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nano/ros2_uav_ws'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extensions ['ignore', 'ignore_ament_install']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extension 'ignore'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extension 'ignore_ament_install'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extensions ['colcon_pkg']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extension 'colcon_pkg'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extensions ['colcon_meta']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extension 'colcon_meta'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extensions ['ros']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extension 'ros'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extensions ['cmake', 'python']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extension 'cmake'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extension 'python'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extensions ['python_setup_py']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example) by extension 'python_setup_py'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example/px4_offboard) by extensions ['ignore', 'ignore_ament_install']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example/px4_offboard) by extension 'ignore'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example/px4_offboard) by extension 'ignore_ament_install'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example/px4_offboard) by extensions ['colcon_pkg']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example/px4_offboard) by extension 'colcon_pkg'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example/px4_offboard) by extensions ['colcon_meta']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example/px4_offboard) by extension 'colcon_meta'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example/px4_offboard) by extensions ['ros']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_PX4_Offboard_Example/px4_offboard) by extension 'ros'
+[0.862s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS2_PX4_Offboard_Example/px4_offboard' with type 'ros.ament_python' and name 'px4_offboard'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/nano_test_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/nano_test_pkg) by extension 'ignore'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/nano_test_pkg) by extension 'ignore_ament_install'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/nano_test_pkg) by extensions ['colcon_pkg']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/nano_test_pkg) by extension 'colcon_pkg'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/nano_test_pkg) by extensions ['colcon_meta']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/nano_test_pkg) by extension 'colcon_meta'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/nano_test_pkg) by extensions ['ros']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/nano_test_pkg) by extension 'ros'
+[0.868s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nano_test_pkg' with type 'ros.ament_python' and name 'nano_test_pkg'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.880s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_pkg']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_pkg'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_meta']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_meta'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ros']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ros'
+[0.886s] DEBUG:colcon.colcon_core.package_identification:Package 'src/v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.973s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nano/ros2_uav_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nano/ros2_uav_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/nano/ros2_uav_ws/src/px4_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.976s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nano/ros2_uav_ws/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nano/ros2_uav_ws/install/v4l2_camera', 'merge_install': False, 'path': '/home/nano/ros2_uav_ws/src/v4l2_camera', 'symlink_install': True, 'test_result_base': None}
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.978s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nano/ros2_uav_ws/build/px4_offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nano/ros2_uav_ws/install/px4_offboard', 'merge_install': False, 'path': '/home/nano/ros2_uav_ws/src/ROS2_PX4_Offboard_Example/px4_offboard', 'symlink_install': True, 'test_result_base': None}
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.981s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nano/ros2_uav_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nano/ros2_uav_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/nano/ros2_uav_ws/src/px4_ros_com', 'symlink_install': True, 'test_result_base': None}
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'nano_test_pkg' build argument 'cmake_args' from command line to 'None'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'nano_test_pkg' build argument 'cmake_target' from command line to 'None'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'nano_test_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'nano_test_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'nano_test_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'nano_test_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'nano_test_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'nano_test_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'nano_test_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.984s] DEBUG:colcon.colcon_core.verb:Building package 'nano_test_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nano/ros2_uav_ws/build/nano_test_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nano/ros2_uav_ws/install/nano_test_pkg', 'merge_install': False, 'path': '/home/nano/ros2_uav_ws/src/nano_test_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.984s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.988s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.989s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nano/ros2_uav_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.990s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nano/ros2_uav_ws/src/px4_msgs'
+[1.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nano/ros2_uav_ws/install/v4l2_camera' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.008s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nano/ros2_uav_ws/install/nano_test_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.008s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nano/ros2_uav_ws/install/px4_ros_com' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.008s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nano/ros2_uav_ws/install/px4_offboard' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.009s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nano/ros2_uav_ws/install/px4_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.010s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nano/ros2_uav_ws/install/v4l2_camera' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.010s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nano/ros2_uav_ws/install/px4_ros_com' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.011s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nano/ros2_uav_ws/install/px4_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.032s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nano/ros2_uav_ws/src/v4l2_camera' with build type 'ament_cmake'
+[1.033s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nano/ros2_uav_ws/src/v4l2_camera'
+[1.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/px4_msgs
+[1.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/v4l2_camera
+[12.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/v4l2_camera
+[13.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/v4l2_camera -- -j4 -l4
+[30.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/px4_msgs
+[30.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_msgs -- -j4 -l4
+[145.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/v4l2_camera -- -j4 -l4
+[145.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/v4l2_camera
+[146.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[146.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/v4l2_camera
+[146.705s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera' for CMake module files
+[146.709s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera' for CMake config files
+[146.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[146.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[146.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[146.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[146.722s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/lib'
+[146.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[146.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[146.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[146.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[146.733s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/bin'
+[146.733s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[146.741s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/lib/python3.10/site-packages'
+[146.742s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/bin'
+[146.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[146.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[146.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[146.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[146.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[146.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nano/ros2_uav_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[146.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[146.991s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera' for CMake module files
+[146.995s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera' for CMake config files
+[146.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[147.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[147.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[147.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[147.007s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/lib'
+[147.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[147.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[147.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[147.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[147.016s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/bin'
+[147.016s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[147.018s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/lib/python3.10/site-packages'
+[147.019s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/v4l2_camera/bin'
+[147.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[147.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[147.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[147.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[147.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[147.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nano/ros2_uav_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[1752.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_msgs -- -j4 -l4
+[1786.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/px4_msgs
+[1916.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1916.037s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs' for CMake module files
+[1916.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/px4_msgs
+[1916.042s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs' for CMake config files
+[1916.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1916.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1916.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1916.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1916.070s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/lib'
+[1916.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1916.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1916.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1916.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1916.076s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/bin'
+[1916.077s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1916.077s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/lib/python3.10/site-packages'
+[1916.078s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/bin'
+[1916.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[1916.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[1916.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[1916.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[1916.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[1916.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nano/ros2_uav_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1947.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1947.268s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs' for CMake module files
+[1947.272s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs' for CMake config files
+[1947.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1947.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1947.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1947.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1947.345s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/lib'
+[1947.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1947.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1947.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1947.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1947.355s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/bin'
+[1947.356s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1947.357s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/lib/python3.10/site-packages'
+[1947.357s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_msgs/bin'
+[1947.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[1947.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[1947.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[1947.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[1947.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[1947.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nano/ros2_uav_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1947.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nano/ros2_uav_ws/src/px4_ros_com' with build type 'ament_cmake'
+[1947.372s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nano/ros2_uav_ws/src/px4_ros_com'
+[1947.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1947.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1947.393s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nano/ros2_uav_ws/src/ROS2_PX4_Offboard_Example/px4_offboard' with build type 'ament_python'
+[1947.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'ament_prefix_path')
+[1947.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.ps1'
+[1947.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.dsv'
+[1947.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.sh'
+[1947.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1947.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1947.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/nano/ros2_uav_ws/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/px4_ros_com
+[1948.571s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nano/ros2_uav_ws/src/ROS2_PX4_Offboard_Example/px4_offboard'
+[1948.573s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1948.573s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1952.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/px4_offboard': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/px4_offboard/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/px4_offboard/build --no-deps symlink_data
+[1955.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'pythonpath_develop')
+[1955.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/build/px4_offboard/share/px4_offboard/hook/pythonpath_develop.ps1'
+[1955.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/px4_offboard' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/px4_offboard/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/px4_offboard/build --no-deps symlink_data
+[1955.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/build/px4_offboard/share/px4_offboard/hook/pythonpath_develop.dsv'
+[1955.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/build/px4_offboard/share/px4_offboard/hook/pythonpath_develop.sh'
+[1955.885s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_offboard' for CMake module files
+[1955.888s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_offboard' for CMake config files
+[1955.891s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_offboard/lib'
+[1955.892s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_offboard/bin'
+[1955.892s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_offboard/lib/pkgconfig/px4_offboard.pc'
+[1955.893s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages'
+[1955.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'pythonpath')
+[1955.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.ps1'
+[1955.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.dsv'
+[1955.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.sh'
+[1955.900s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_offboard/bin'
+[1955.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_offboard)
+[1955.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/package.ps1'
+[1955.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/package.dsv'
+[1955.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/package.sh'
+[1955.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/package.bash'
+[1955.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard/package.zsh'
+[1955.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nano/ros2_uav_ws/install/px4_offboard/share/colcon-core/packages/px4_offboard)
+[1958.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/nano/ros2_uav_ws/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/px4_ros_com
+[1958.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_ros_com -- -j4 -l4
+[2036.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_ros_com -- -j4 -l4
+[2036.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/px4_ros_com
+[2038.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[2038.552s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com' for CMake module files
+[2038.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/px4_ros_com
+[2038.557s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com' for CMake config files
+[2038.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[2038.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[2038.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[2038.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[2038.566s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/lib'
+[2038.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[2038.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[2038.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[2038.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[2038.573s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/bin'
+[2038.573s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[2038.574s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[2038.575s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/bin'
+[2038.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[2038.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[2038.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[2038.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[2038.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[2038.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nano/ros2_uav_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[2038.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[2038.855s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com' for CMake module files
+[2038.859s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com' for CMake config files
+[2038.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[2038.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[2038.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[2038.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[2038.868s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/lib'
+[2038.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[2038.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[2038.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[2038.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[2038.876s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/bin'
+[2038.877s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[2038.878s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[2038.879s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/px4_ros_com/bin'
+[2038.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[2038.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[2038.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[2038.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[2038.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[2038.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nano/ros2_uav_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[2038.892s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nano/ros2_uav_ws/src/nano_test_pkg' with build type 'ament_python'
+[2038.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('nano_test_pkg', 'ament_prefix_path')
+[2038.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/hook/ament_prefix_path.ps1'
+[2038.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/hook/ament_prefix_path.dsv'
+[2038.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/hook/ament_prefix_path.sh'
+[2038.901s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2038.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2039.992s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nano/ros2_uav_ws/src/nano_test_pkg'
+[2039.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2039.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2042.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nano/ros2_uav_ws/build/nano_test_pkg': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/nano_test_pkg/build --no-deps symlink_data
+[2046.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('nano_test_pkg', 'pythonpath_develop')
+[2046.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/build/nano_test_pkg/share/nano_test_pkg/hook/pythonpath_develop.ps1'
+[2046.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nano/ros2_uav_ws/build/nano_test_pkg' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/nano_test_pkg/build --no-deps symlink_data
+[2046.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/build/nano_test_pkg/share/nano_test_pkg/hook/pythonpath_develop.dsv'
+[2046.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/build/nano_test_pkg/share/nano_test_pkg/hook/pythonpath_develop.sh'
+[2046.221s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/nano_test_pkg' for CMake module files
+[2046.223s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/nano_test_pkg' for CMake config files
+[2046.225s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/nano_test_pkg/lib'
+[2046.226s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/nano_test_pkg/bin'
+[2046.226s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/pkgconfig/nano_test_pkg.pc'
+[2046.227s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages'
+[2046.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('nano_test_pkg', 'pythonpath')
+[2046.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/hook/pythonpath.ps1'
+[2046.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/hook/pythonpath.dsv'
+[2046.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/hook/pythonpath.sh'
+[2046.233s] Level 1:colcon.colcon_core.environment:checking '/home/nano/ros2_uav_ws/install/nano_test_pkg/bin'
+[2046.234s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nano_test_pkg)
+[2046.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/package.ps1'
+[2046.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/package.dsv'
+[2046.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/package.sh'
+[2046.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/package.bash'
+[2046.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg/package.zsh'
+[2046.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nano/ros2_uav_ws/install/nano_test_pkg/share/colcon-core/packages/nano_test_pkg)
+[2046.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2046.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2046.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2046.247s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2046.270s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2046.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2046.271s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2046.350s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2046.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nano/ros2_uav_ws/install/local_setup.ps1'
+[2046.356s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nano/ros2_uav_ws/install/_local_setup_util_ps1.py'
+[2046.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nano/ros2_uav_ws/install/setup.ps1'
+[2046.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nano/ros2_uav_ws/install/local_setup.sh'
+[2046.373s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nano/ros2_uav_ws/install/_local_setup_util_sh.py'
+[2046.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nano/ros2_uav_ws/install/setup.sh'
+[2046.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nano/ros2_uav_ws/install/local_setup.bash'
+[2046.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nano/ros2_uav_ws/install/setup.bash'
+[2046.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nano/ros2_uav_ws/install/local_setup.zsh'
+[2046.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nano/ros2_uav_ws/install/setup.zsh'

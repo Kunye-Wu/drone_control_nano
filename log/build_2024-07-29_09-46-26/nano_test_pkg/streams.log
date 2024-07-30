@@ -1,0 +1,38 @@
+[3.961s] Invoking command in '/home/nano/ros2_uav_ws/build/nano_test_pkg': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/nano_test_pkg/build --no-deps symlink_data
+[5.603s] running develop
+[5.604s] /home/nano/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.605s] !!
+[5.605s] 
+[5.605s]         ********************************************************************************
+[5.606s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.606s]         Instead, use pypa/build, pypa/installer or other
+[5.606s]         standards-based tools.
+[5.606s] 
+[5.607s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.607s]         ********************************************************************************
+[5.608s] 
+[5.608s] !!
+[5.608s]   easy_install.initialize_options(self)
+[6.789s] running egg_info
+[6.791s] creating nano_test_pkg.egg-info
+[6.872s] writing nano_test_pkg.egg-info/PKG-INFO
+[6.874s] writing dependency_links to nano_test_pkg.egg-info/dependency_links.txt
+[6.875s] writing entry points to nano_test_pkg.egg-info/entry_points.txt
+[6.876s] writing requirements to nano_test_pkg.egg-info/requires.txt
+[6.876s] writing top-level names to nano_test_pkg.egg-info/top_level.txt
+[6.877s] writing manifest file 'nano_test_pkg.egg-info/SOURCES.txt'
+[7.046s] reading manifest file 'nano_test_pkg.egg-info/SOURCES.txt'
+[7.049s] writing manifest file 'nano_test_pkg.egg-info/SOURCES.txt'
+[7.142s] running build_ext
+[7.143s] Creating /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano-test-pkg.egg-link (link to .)
+[7.146s] Installing hover_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+[7.146s] Installing open_loop_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+[7.148s] 
+[7.148s] Installed /home/nano/ros2_uav_ws/build/nano_test_pkg
+[7.149s] running symlink_data
+[7.149s] creating /home/nano/ros2_uav_ws/install/nano_test_pkg/share/ament_index
+[7.150s] creating /home/nano/ros2_uav_ws/install/nano_test_pkg/share/ament_index/resource_index
+[7.150s] creating /home/nano/ros2_uav_ws/install/nano_test_pkg/share/ament_index/resource_index/packages
+[7.150s] symbolically linking /home/nano/ros2_uav_ws/build/nano_test_pkg/resource/nano_test_pkg -> /home/nano/ros2_uav_ws/install/nano_test_pkg/share/ament_index/resource_index/packages
+[7.151s] symbolically linking /home/nano/ros2_uav_ws/build/nano_test_pkg/package.xml -> /home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg
+[7.318s] Invoked command in '/home/nano/ros2_uav_ws/build/nano_test_pkg' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/nano_test_pkg/build --no-deps symlink_data

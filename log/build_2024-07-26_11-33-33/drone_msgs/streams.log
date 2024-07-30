@@ -1,0 +1,231 @@
+[0.147s] Invoking command in '/home/nano/ros2_uav_ws/build/drone_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/drone_msgs -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/drone_msgs
+[1.256s] -- The C compiler identification is GNU 11.4.0
+[2.191s] -- The CXX compiler identification is GNU 11.4.0
+[2.233s] -- Detecting C compiler ABI info
+[2.816s] -- Detecting C compiler ABI info - done
+[2.854s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.857s] -- Detecting C compile features
+[2.862s] -- Detecting C compile features - done
+[2.879s] -- Detecting CXX compiler ABI info
+[3.474s] -- Detecting CXX compiler ABI info - done
+[3.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.525s] -- Detecting CXX compile features
+[3.528s] -- Detecting CXX compile features - done
+[3.570s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.605s] -- Found ament_cmake_core: 1.3.9 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[6.087s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.792s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.778s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.768s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[12.800s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[13.029s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[13.030s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.031s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.031s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[13.207s] -- Found PythonExtra: .so  
+[13.531s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.786s] -- Added test 'lint_cmake' to check CMake code style
+[13.796s] -- Added test 'xmllint' to check XML markup files
+[13.817s] -- Configuring done
+[14.014s] -- Generating done
+[14.029s] -- Build files have been written to: /home/nano/ros2_uav_ws/build/drone_msgs
+[14.062s] Invoked command in '/home/nano/ros2_uav_ws/build/drone_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/drone_msgs -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/drone_msgs
+[14.066s] Invoking command in '/home/nano/ros2_uav_ws/build/drone_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/drone_msgs -- -j4 -l4
+[14.303s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.360s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.444s] [  6%] Built target ament_cmake_python_copy_drone_msgs
+[16.261s] [  6%] Built target drone_msgs__cpp
+[16.353s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.409s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.500s] running egg_info
+[17.512s] creating drone_msgs.egg-info
+[17.853s] writing drone_msgs.egg-info/PKG-INFO
+[17.857s] writing dependency_links to drone_msgs.egg-info/dependency_links.txt
+[17.861s] writing top-level names to drone_msgs.egg-info/top_level.txt
+[17.863s] writing manifest file 'drone_msgs.egg-info/SOURCES.txt'
+[18.129s] [ 16%] [32mBuilding C object CMakeFiles/drone_msgs__rosidl_generator_c.dir/rosidl_generator_c/drone_msgs/srv/detail/arm_disarm__functions.c.o[0m
+[18.714s] [ 19%] [32mBuilding CXX object CMakeFiles/drone_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drone_msgs/srv/detail/dds_fastrtps/arm_disarm__type_support.cpp.o[0m
+[19.137s] [ 22%] [32m[1mLinking C shared library libdrone_msgs__rosidl_generator_c.so[0m
+[19.151s] reading manifest file 'drone_msgs.egg-info/SOURCES.txt'
+[19.164s] writing manifest file 'drone_msgs.egg-info/SOURCES.txt'
+[19.270s] [ 25%] [32mBuilding CXX object CMakeFiles/drone_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drone_msgs/srv/arm_disarm__type_support.cpp.o[0m
+[19.542s] [ 25%] Built target drone_msgs__rosidl_generator_c
+[19.606s] [ 25%] Built target ament_cmake_python_build_drone_msgs_egg
+[19.654s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.670s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.525s] [ 35%] [32mBuilding CXX object CMakeFiles/drone_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drone_msgs/srv/detail/arm_disarm__type_support.cpp.o[0m
+[22.535s] [ 38%] [32mBuilding CXX object CMakeFiles/drone_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drone_msgs/srv/detail/arm_disarm__type_support_c.cpp.o[0m
+[23.161s] [ 41%] [32m[1mLinking CXX shared library libdrone_msgs__rosidl_typesupport_cpp.so[0m
+[23.741s] [ 41%] Built target drone_msgs__rosidl_typesupport_cpp
+[23.844s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.070s] [ 48%] [32m[1mLinking CXX shared library libdrone_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.704s] [ 48%] Built target drone_msgs__rosidl_typesupport_fastrtps_cpp
+[24.779s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.752s] [ 54%] [32m[1mLinking CXX shared library libdrone_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[26.836s] [ 58%] [32mBuilding C object CMakeFiles/drone_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_msgs/srv/detail/arm_disarm__type_support.c.o[0m
+[27.048s] [ 61%] [32m[1mLinking CXX shared library libdrone_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[27.253s] [ 64%] [32m[1mLinking C shared library libdrone_msgs__rosidl_typesupport_introspection_c.so[0m
+[27.362s] [ 64%] Built target drone_msgs__rosidl_typesupport_fastrtps_c
+[27.426s] [ 64%] Built target drone_msgs__rosidl_typesupport_introspection_cpp
+[27.515s] [ 64%] Built target drone_msgs__rosidl_typesupport_introspection_c
+[27.594s] [ 67%] [32mBuilding CXX object CMakeFiles/drone_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_msgs/srv/arm_disarm__type_support.cpp.o[0m
+[27.774s] [ 70%] [32m[1mLinking CXX shared library libdrone_msgs__rosidl_typesupport_c.so[0m
+[27.972s] [ 70%] Built target drone_msgs__rosidl_typesupport_c
+[28.085s] [ 70%] Built target drone_msgs
+[28.195s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.381s] [ 74%] Built target drone_msgs__py
+[30.549s] [ 77%] [32mBuilding C object CMakeFiles/drone_msgs__rosidl_generator_py.dir/rosidl_generator_py/drone_msgs/srv/_arm_disarm_s.c.o[0m
+[31.564s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/drone_msgs/libdrone_msgs__rosidl_generator_py.so[0m
+[31.865s] [ 80%] Built target drone_msgs__rosidl_generator_py
+[32.034s] [ 83%] [32mBuilding C object CMakeFiles/drone_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.113s] [ 87%] [32mBuilding C object CMakeFiles/drone_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.204s] [ 90%] [32mBuilding C object CMakeFiles/drone_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[32.765s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.047s] [ 93%] Built target drone_msgs__rosidl_typesupport_fastrtps_c__pyext
+[33.058s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.105s] [100%] [32m[1mLinking C shared library rosidl_generator_py/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.376s] [100%] Built target drone_msgs__rosidl_typesupport_introspection_c__pyext
+[33.413s] [100%] Built target drone_msgs__rosidl_typesupport_c__pyext
+[33.485s] Invoked command in '/home/nano/ros2_uav_ws/build/drone_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/drone_msgs -- -j4 -l4
+[34.047s] Invoking command in '/home/nano/ros2_uav_ws/build/drone_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/drone_msgs
+[34.110s] -- Install configuration: ""
+[34.112s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/ament_index/resource_index/rosidl_interfaces/drone_msgs
+[34.115s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[34.116s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv
+[34.117s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail
+[34.118s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__functions.c
+[34.121s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__functions.h
+[34.123s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__type_support.h
+[34.125s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__struct.h
+[34.128s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/arm_disarm.h
+[34.132s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[34.133s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_generator_c__visibility_control.h
+[34.135s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/library_path.sh
+[34.136s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/library_path.dsv
+[34.139s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_c.so
+[34.145s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_c.so" to ""
+[34.164s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[34.169s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv
+[34.171s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail
+[34.172s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__rosidl_typesupport_fastrtps_c.h
+[34.173s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[34.175s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.176s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_c.so
+[34.177s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[34.178s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[34.180s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv
+[34.181s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail
+[34.182s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__type_support.c
+[34.184s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__rosidl_typesupport_introspection_c.h
+[34.184s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[34.185s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.185s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_c.so
+[34.185s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_c.so" to ""
+[34.186s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_c.so
+[34.186s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_c.so" to ""
+[34.187s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[34.187s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv
+[34.188s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/arm_disarm.hpp
+[34.188s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail
+[34.189s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__traits.hpp
+[34.191s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__struct.hpp
+[34.192s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__builder.hpp
+[34.193s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[34.197s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv
+[34.198s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail
+[34.198s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__rosidl_typesupport_fastrtps_cpp.hpp
+[34.199s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/dds_fastrtps
+[34.204s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg
+[34.205s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.205s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_cpp.so
+[34.207s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.208s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs
+[34.209s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv
+[34.210s] -- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail
+[34.210s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__rosidl_typesupport_introspection_cpp.hpp
+[34.211s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__type_support.cpp
+[34.212s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_cpp.so
+[34.213s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[34.213s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_cpp.so
+[34.214s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_cpp.so" to ""
+[34.214s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/pythonpath.sh
+[34.220s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/pythonpath.dsv
+[34.221s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info
+[34.224s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[34.225s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[34.226s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[34.226s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[34.226s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs
+[34.227s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/libdrone_msgs__rosidl_generator_py.so
+[34.228s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv
+[34.228s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv/_arm_disarm_s.c
+[34.229s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv/__init__.py
+[34.229s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv/_arm_disarm.py
+[34.229s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[34.230s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[34.235s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[34.235s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/__init__.py
+[34.236s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[34.239s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[34.242s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_c.c
+[34.474s] Listing '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs'...
+[34.475s] Compiling '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/__init__.py'...
+[34.477s] Listing '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv'...
+[34.478s] Compiling '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv/__init__.py'...
+[34.479s] Compiling '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv/_arm_disarm.py'...
+[34.508s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[34.510s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[34.512s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[34.516s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[34.518s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[34.522s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[34.523s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_py.so
+[34.525s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_py.so" to ""
+[34.526s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/srv/ArmDisarm.idl
+[34.527s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/srv/ArmDisarm.srv
+[34.528s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/srv/ArmDisarm_Request.msg
+[34.529s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/srv/ArmDisarm_Response.msg
+[34.531s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/ament_index/resource_index/package_run_dependencies/drone_msgs
+[34.533s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/ament_index/resource_index/parent_prefix_path/drone_msgs
+[34.535s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/ament_prefix_path.sh
+[34.536s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/ament_prefix_path.dsv
+[34.537s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/path.sh
+[34.538s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/path.dsv
+[34.541s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/local_setup.bash
+[34.541s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/local_setup.sh
+[34.542s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/local_setup.zsh
+[34.543s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/local_setup.dsv
+[34.545s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/package.dsv
+[34.546s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/ament_index/resource_index/packages/drone_msgs
+[34.548s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cExport.cmake
+[34.551s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cExport-noconfig.cmake
+[34.554s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[34.559s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.561s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cExport.cmake
+[34.562s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.562s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cExport.cmake
+[34.566s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[34.568s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cppExport.cmake
+[34.570s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.571s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.573s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[34.575s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.576s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cppExport.cmake
+[34.578s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[34.580s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_pyExport.cmake
+[34.581s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_pyExport-noconfig.cmake
+[34.582s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake-extras.cmake
+[34.584s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.585s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[34.587s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[34.588s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.590s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.591s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.592s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgsConfig.cmake
+[34.593s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgsConfig-version.cmake
+[34.595s] -- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/package.xml
+[34.605s] Invoked command in '/home/nano/ros2_uav_ws/build/drone_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/drone_msgs

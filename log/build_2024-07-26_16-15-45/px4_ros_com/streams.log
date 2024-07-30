@@ -1,0 +1,181 @@
+[0.081s] Invoking command in '/home/nano/ros2_uav_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/nano/ros2_uav_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/px4_ros_com
+[0.390s] -- The C compiler identification is GNU 11.4.0
+[0.694s] -- The CXX compiler identification is GNU 11.4.0
+[0.729s] -- Detecting C compiler ABI info
+[1.132s] -- Detecting C compiler ABI info - done
+[1.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.159s] -- Detecting C compile features
+[1.161s] -- Detecting C compile features - done
+[1.179s] -- Detecting CXX compiler ABI info
+[1.650s] -- Detecting CXX compiler ABI info - done
+[1.677s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.679s] -- Detecting CXX compile features
+[1.683s] -- Detecting CXX compile features - done
+[1.713s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.896s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.571s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[4.889s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.940s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.010s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.104s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.398s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.510s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.544s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.962s] -- Found px4_msgs: 2.0.1 (/home/nano/ros2_uav_ws/install/px4_msgs/share/px4_msgs/cmake)
+[6.131s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[6.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.565s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.274s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.541s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.996s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.087s] -- Looking for pthread.h
+[8.480s] -- Looking for pthread.h - found
+[8.481s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.876s] -- Found Threads: TRUE  
+[9.522s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.874s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[9.925s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.585s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.637s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.639s] -- Configured cppcheck include dirs: /home/nano/ros2_uav_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/nano/ros2_uav_ws/src/px4_ros_com/include/px4_ros_com>
+[10.639s] -- Configured cppcheck exclude dirs and/or files: 
+[10.690s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.691s] -- Configured cpplint exclude dirs and/or files: 
+[10.699s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.714s] -- Added test 'lint_cmake' to check CMake code style
+[10.723s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.774s] -- Added test 'uncrustify' to check C / C++ code style
+[10.774s] -- Configured uncrustify additional arguments: 
+[10.783s] -- Added test 'xmllint' to check XML markup files
+[10.797s] -- Configuring done
+[10.943s] -- Generating done
+[10.955s] -- Build files have been written to: /home/nano/ros2_uav_ws/build/px4_ros_com
+[11.001s] Invoked command in '/home/nano/ros2_uav_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/nano/ros2_uav_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/px4_ros_com
+[11.012s] Invoking command in '/home/nano/ros2_uav_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_ros_com -- -j4 -l4
+[11.269s] [  8%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[11.283s] [ 16%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[11.289s] [ 25%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[11.352s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[17.470s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[17.471s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[17.473s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[17.474s]                  from [01m[K/home/nano/ros2_uav_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[17.475s]                  from [01m[K/home/nano/ros2_uav_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[17.476s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[17.479s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[17.481s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[17.486s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.491s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[17.493s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[17.497s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[17.500s]                  from [01m[K/home/nano/ros2_uav_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[17.501s]                  from [01m[K/home/nano/ros2_uav_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[17.505s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[17.507s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[17.512s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.513s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[17.517s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[17.521s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[17.522s]                  from [01m[K/home/nano/ros2_uav_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[17.523s]                  from [01m[K/home/nano/ros2_uav_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[17.524s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[17.525s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[17.525s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[17.526s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.538s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[17.539s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[17.540s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[17.541s]                  from [01m[K/home/nano/ros2_uav_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[17.542s]                  from [01m[K/home/nano/ros2_uav_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[17.562s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[17.563s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[17.563s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[48.402s] [ 41%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[49.806s] [ 41%] Built target debug_vect_advertiser
+[49.988s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[69.707s] [ 58%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[71.661s] [ 58%] Built target frame_transforms
+[77.101s] [ 66%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[77.757s] [ 75%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[79.605s] [ 75%] Built target sensor_combined_listener
+[80.319s] [ 75%] Built target vehicle_gps_position_listener
+[80.465s] [ 75%] Built target ament_cmake_python_copy_px4_ros_com
+[80.584s] [ 83%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[91.152s] [ 91%] [32m[1mLinking CXX executable offboard_control[0m
+[92.470s] [ 91%] Built target offboard_control
+[94.280s] running egg_info
+[94.286s] creating px4_ros_com.egg-info
+[94.450s] writing px4_ros_com.egg-info/PKG-INFO
+[94.452s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[94.454s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[94.455s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[94.915s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[94.919s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[95.101s] [ 91%] Built target ament_cmake_python_build_px4_ros_com_egg
+[109.519s] [100%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[110.768s] [100%] Built target offboard_control_srv
+[110.814s] Invoked command in '/home/nano/ros2_uav_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_ros_com -- -j4 -l4
+[111.124s] Invoking command in '/home/nano/ros2_uav_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/px4_ros_com
+[111.160s] -- Install configuration: ""
+[111.160s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[111.187s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[111.187s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[111.214s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[111.214s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[111.224s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[111.224s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[111.236s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[111.237s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[111.252s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[111.253s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[111.254s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[111.255s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/include/px4_ros_com
+[111.256s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[111.258s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/lib/libframe_transforms.so
+[111.286s] -- Set runtime path of "/home/nano/ros2_uav_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[111.287s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com//launch
+[111.287s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[111.288s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[111.291s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com//test
+[111.291s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[111.292s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[111.292s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[111.293s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[111.294s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[111.296s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[111.297s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[111.298s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[111.299s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[111.300s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[111.301s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[111.303s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[111.303s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[111.304s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[111.488s] Listing '/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[111.489s] Compiling '/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[111.490s] Compiling '/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[111.516s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[111.518s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[111.519s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[111.521s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[111.523s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[111.524s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[111.525s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[111.526s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[111.528s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[111.529s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[111.530s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[111.531s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[111.533s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[111.534s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[111.536s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[111.537s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[111.539s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[111.540s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[111.542s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[111.544s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[111.545s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[111.548s] -- Installing: /home/nano/ros2_uav_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[111.557s] Invoked command in '/home/nano/ros2_uav_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/px4_ros_com

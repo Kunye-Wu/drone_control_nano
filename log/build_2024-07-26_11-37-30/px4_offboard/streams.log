@@ -1,0 +1,54 @@
+[5.306s] Invoking command in '/home/nano/ros2_uav_ws/src/ROS2_PX4_Offboard_Example/px4_offboard': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/px4_offboard/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/nano/ros2_uav_ws/build/px4_offboard/build install --record /home/nano/ros2_uav_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[6.773s] running egg_info
+[6.775s] creating ../../../build/px4_offboard/px4_offboard.egg-info
+[6.865s] writing ../../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[6.868s] writing dependency_links to ../../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[6.869s] writing entry points to ../../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[6.870s] writing requirements to ../../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[6.872s] writing top-level names to ../../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[6.873s] writing manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[7.101s] reading manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[7.104s] adding license file 'LICENSE'
+[7.107s] writing manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[7.107s] running build
+[7.108s] running build_py
+[7.110s] creating /home/nano/ros2_uav_ws/build/px4_offboard/build
+[7.110s] creating /home/nano/ros2_uav_ws/build/px4_offboard/build/lib
+[7.111s] creating /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard
+[7.112s] copying px4_offboard/control.py -> /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard
+[7.112s] copying px4_offboard/processes.py -> /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard
+[7.113s] copying px4_offboard/velocity_control.py -> /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard
+[7.114s] copying px4_offboard/__init__.py -> /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard
+[7.115s] copying px4_offboard/visualizer.py -> /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard
+[7.117s] running install
+[7.140s] running install_lib
+[7.230s] creating /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[7.231s] copying /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard/control.py -> /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[7.232s] copying /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard/processes.py -> /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[7.233s] copying /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard/velocity_control.py -> /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[7.234s] copying /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard/__init__.py -> /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[7.236s] copying /home/nano/ros2_uav_ws/build/px4_offboard/build/lib/px4_offboard/visualizer.py -> /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[7.238s] byte-compiling /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/control.py to control.cpython-310.pyc
+[7.243s] byte-compiling /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/processes.py to processes.cpython-310.pyc
+[7.245s] byte-compiling /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/velocity_control.py to velocity_control.cpython-310.pyc
+[7.252s] byte-compiling /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/__init__.py to __init__.cpython-310.pyc
+[7.253s] byte-compiling /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/visualizer.py to visualizer.cpython-310.pyc
+[7.258s] running install_data
+[7.259s] creating /home/nano/ros2_uav_ws/install/px4_offboard/share/ament_index
+[7.259s] creating /home/nano/ros2_uav_ws/install/px4_offboard/share/ament_index/resource_index
+[7.260s] creating /home/nano/ros2_uav_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[7.260s] copying resource/px4_offboard -> /home/nano/ros2_uav_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[7.261s] copying resource/visualize.rviz -> /home/nano/ros2_uav_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[7.263s] copying package.xml -> /home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard
+[7.264s] copying launch/offboard_velocity_control.launch.py -> /home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard
+[7.265s] copying resource/visualize.rviz -> /home/nano/ros2_uav_ws/install/px4_offboard/share/px4_offboard
+[7.266s] running install_egg_info
+[7.371s] Copying ../../../build/px4_offboard/px4_offboard.egg-info to /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info
+[7.378s] running install_scripts
+[8.260s] Installing control script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[8.263s] Installing offboard_control script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[8.264s] Installing processes script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[8.265s] Installing velocity_control script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[8.266s] Installing visualizer script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[8.268s] writing list of installed files to '/home/nano/ros2_uav_ws/build/px4_offboard/install.log'
+[8.447s] Invoked command in '/home/nano/ros2_uav_ws/src/ROS2_PX4_Offboard_Example/px4_offboard' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/px4_offboard/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/nano/ros2_uav_ws/build/px4_offboard/build install --record /home/nano/ros2_uav_ws/build/px4_offboard/install.log --single-version-externally-managed install_data

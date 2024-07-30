@@ -1,0 +1,41 @@
+[4.327s] Invoking command in '/home/nano/ros2_uav_ws/src/nano_test_pkg': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/drone_msgs LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nano_test_pkg build --build-base /home/nano/ros2_uav_ws/build/nano_test_pkg/build install --record /home/nano/ros2_uav_ws/build/nano_test_pkg/install.log --single-version-externally-managed install_data
+[5.706s] running egg_info
+[5.708s] creating ../../build/nano_test_pkg/nano_test_pkg.egg-info
+[5.796s] writing ../../build/nano_test_pkg/nano_test_pkg.egg-info/PKG-INFO
+[5.798s] writing dependency_links to ../../build/nano_test_pkg/nano_test_pkg.egg-info/dependency_links.txt
+[5.800s] writing entry points to ../../build/nano_test_pkg/nano_test_pkg.egg-info/entry_points.txt
+[5.801s] writing requirements to ../../build/nano_test_pkg/nano_test_pkg.egg-info/requires.txt
+[5.801s] writing top-level names to ../../build/nano_test_pkg/nano_test_pkg.egg-info/top_level.txt
+[5.802s] writing manifest file '../../build/nano_test_pkg/nano_test_pkg.egg-info/SOURCES.txt'
+[5.991s] reading manifest file '../../build/nano_test_pkg/nano_test_pkg.egg-info/SOURCES.txt'
+[5.995s] writing manifest file '../../build/nano_test_pkg/nano_test_pkg.egg-info/SOURCES.txt'
+[5.996s] running build
+[5.996s] running build_py
+[5.997s] creating /home/nano/ros2_uav_ws/build/nano_test_pkg/build
+[5.998s] creating /home/nano/ros2_uav_ws/build/nano_test_pkg/build/lib
+[5.998s] creating /home/nano/ros2_uav_ws/build/nano_test_pkg/build/lib/nano_test_pkg
+[5.999s] copying nano_test_pkg/hover.py -> /home/nano/ros2_uav_ws/build/nano_test_pkg/build/lib/nano_test_pkg
+[5.999s] copying nano_test_pkg/__init__.py -> /home/nano/ros2_uav_ws/build/nano_test_pkg/build/lib/nano_test_pkg
+[6.001s] copying nano_test_pkg/open_loop.py -> /home/nano/ros2_uav_ws/build/nano_test_pkg/build/lib/nano_test_pkg
+[6.002s] running install
+[6.023s] running install_lib
+[6.115s] creating /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano_test_pkg
+[6.116s] copying /home/nano/ros2_uav_ws/build/nano_test_pkg/build/lib/nano_test_pkg/hover.py -> /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano_test_pkg
+[6.117s] copying /home/nano/ros2_uav_ws/build/nano_test_pkg/build/lib/nano_test_pkg/__init__.py -> /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano_test_pkg
+[6.118s] copying /home/nano/ros2_uav_ws/build/nano_test_pkg/build/lib/nano_test_pkg/open_loop.py -> /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano_test_pkg
+[6.121s] byte-compiling /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano_test_pkg/hover.py to hover.cpython-310.pyc
+[6.125s] byte-compiling /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano_test_pkg/__init__.py to __init__.cpython-310.pyc
+[6.126s] byte-compiling /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano_test_pkg/open_loop.py to open_loop.cpython-310.pyc
+[6.129s] running install_data
+[6.129s] creating /home/nano/ros2_uav_ws/install/nano_test_pkg/share/ament_index
+[6.130s] creating /home/nano/ros2_uav_ws/install/nano_test_pkg/share/ament_index/resource_index
+[6.130s] creating /home/nano/ros2_uav_ws/install/nano_test_pkg/share/ament_index/resource_index/packages
+[6.131s] copying resource/nano_test_pkg -> /home/nano/ros2_uav_ws/install/nano_test_pkg/share/ament_index/resource_index/packages
+[6.132s] copying package.xml -> /home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg
+[6.133s] running install_egg_info
+[6.227s] Copying ../../build/nano_test_pkg/nano_test_pkg.egg-info to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano_test_pkg-0.0.0-py3.10.egg-info
+[6.233s] running install_scripts
+[7.022s] Installing hover_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+[7.022s] Installing open_loop_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+[7.024s] writing list of installed files to '/home/nano/ros2_uav_ws/build/nano_test_pkg/install.log'
+[7.176s] Invoked command in '/home/nano/ros2_uav_ws/src/nano_test_pkg' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/drone_msgs LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/drone_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nano_test_pkg build --build-base /home/nano/ros2_uav_ws/build/nano_test_pkg/build install --record /home/nano/ros2_uav_ws/build/nano_test_pkg/install.log --single-version-externally-managed install_data

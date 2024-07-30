@@ -1,0 +1,1 @@
+/home/nano/ros2_uav_ws/src/px4_ros_com/test/test_output.py

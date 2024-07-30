@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target sensor_combined_listener[0m
+[35m[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener[0m
+[  8%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[ 16%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[ 33%] Built target frame_transforms
+[ 50%] Built target debug_vect_advertiser
+[ 66%] Built target offboard_control
+[ 83%] Built target offboard_control_srv
+[ 91%] Built target vehicle_gps_position_listener
+[100%] Built target sensor_combined_listener

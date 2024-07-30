@@ -1,0 +1,44 @@
+[0.124s] Invoking command in '/home/nano/ros2_uav_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/v4l2_camera -- -j4 -l4
+[0.593s] [ 50%] Built target v4l2_camera
+[0.861s] [ 75%] Built target v4l2_camera_node
+[0.925s] [100%] Built target v4l2_camera_compose_test
+[1.029s] Invoked command in '/home/nano/ros2_uav_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/v4l2_camera -- -j4 -l4
+[1.543s] Invoking command in '/home/nano/ros2_uav_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/v4l2_camera
+[1.628s] -- Install configuration: ""
+[1.631s] -- Execute custom install script
+[1.634s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[1.636s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[1.638s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[1.640s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/parameters.hpp
+[1.642s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[1.644s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[1.647s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[1.651s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[1.655s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[1.659s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[1.662s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[1.666s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[1.667s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[1.670s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[1.674s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[1.675s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[1.677s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[1.681s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[1.682s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[1.685s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[1.692s] -- Symlinking: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[1.811s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[1.819s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[1.835s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.863s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[1.864s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[1.870s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.873s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[1.878s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[1.881s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[1.888s] -- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/lib/libv4l2_camera.so
+[1.897s] -- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[1.909s] -- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[1.919s] -- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[1.921s] -- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[1.941s] Invoked command in '/home/nano/ros2_uav_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/v4l2_camera

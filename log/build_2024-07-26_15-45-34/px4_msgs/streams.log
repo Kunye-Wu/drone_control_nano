@@ -1,0 +1,36 @@
+[0.097s] Invoking command in '/home/nano/ros2_uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/px4_msgs
+[0.168s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.953s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.994s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.167s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.180s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.207s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.407s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.947s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[9.950s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[9.954s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[9.958s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[12.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.038s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.184s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[13.317s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.318s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.318s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[13.551s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[13.554s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[13.856s] -- Configuring done
+[15.470s] -- Generating done
+[15.491s] -- Build files have been written to: /home/nano/ros2_uav_ws/build/px4_msgs
+[15.576s] Invoked command in '/home/nano/ros2_uav_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/px4_msgs
+[15.587s] Invoking command in '/home/nano/ros2_uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_msgs -- -j4 -l4
+[19.619s] failed to create symbolic link '/home/nano/ros2_uav_ws/build/px4_msgs/ament_cmake_python/px4_msgs/px4_msgs' because existing path cannot be removed: Is a directory
+[19.623s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_px4_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_px4_msgs] Error 1
+[19.623s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_px4_msgs.dir/all] Error 2
+[19.624s] gmake[1]: *** Waiting for unfinished jobs....
+[19.738s] [  0%] Built target px4_msgs__cpp
+[19.771s] [35m[1mConsolidate compiler generated dependencies of target px4_msgs__rosidl_generator_c[0m
+[20.196s] [ 12%] Built target px4_msgs__rosidl_generator_c
+[20.201s] gmake: *** [Makefile:146: all] Error 2
+[20.211s] Invoked command in '/home/nano/ros2_uav_ws/build/px4_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_msgs -- -j4 -l4

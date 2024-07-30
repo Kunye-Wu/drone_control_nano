@@ -1,0 +1,55 @@
+[0.103s] Invoking command in '/home/nano/ros2_uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_msgs -- -j4 -l4
+[4.602s] [  0%] Built target ament_cmake_python_symlink_px4_msgs
+[4.684s] [  0%] Built target px4_msgs__cpp
+[4.959s] [ 12%] Built target px4_msgs__rosidl_generator_c
+[4.974s] [35m[1mConsolidate compiler generated dependencies of target px4_msgs__rosidl_typesupport_cpp[0m
+[5.169s] [35m[1mConsolidate compiler generated dependencies of target px4_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.422s] [35m[1mConsolidate compiler generated dependencies of target px4_msgs__rosidl_typesupport_introspection_cpp[0m
+[5.935s] [ 24%] Built target px4_msgs__rosidl_typesupport_cpp
+[6.319s] [ 36%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[6.531s] [35m[1mConsolidate compiler generated dependencies of target px4_msgs__rosidl_typesupport_fastrtps_c[0m
+[6.568s] [35m[1mConsolidate compiler generated dependencies of target px4_msgs__rosidl_typesupport_introspection_c[0m
+[6.636s] [ 49%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[6.819s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.064s] [ 63%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[7.103s] running egg_info
+[7.286s] writing px4_msgs.egg-info/PKG-INFO
+[7.290s] writing dependency_links to px4_msgs.egg-info/dependency_links.txt
+[7.293s] writing top-level names to px4_msgs.egg-info/top_level.txt
+[7.649s] [ 76%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[7.788s] reading manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[7.791s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[7.993s] [ 76%] Built target ament_cmake_python_build_px4_msgs_egg
+[105.165s] Traceback (most recent call last):
+[105.166s]   File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>
+[105.167s]     sys.exit(main())
+[105.167s]   File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main
+[105.167s] gmake[2]: *** Deleting file 'rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp'
+[105.168s]     generate_c(args.generator_arguments_file, args.typesupports)
+[105.168s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py", line 28, in generate_c
+[105.169s]     return generate_files(
+[105.171s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[105.172s]     idl_file = parse_idl_file(locator)
+[105.172s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[105.173s]     content = parse_idl_string(string, png_file=png_file)
+[105.174s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[105.176s]     tree = get_ast_from_idl_string(idl_string)
+[105.177s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[105.180s]     return _parser.parse(idl_string)
+[105.181s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[105.183s]     return self.parser.parse(text, start=start, on_error=on_error)
+[105.185s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[105.185s]     return self.parser.parse(stream, chosen_start, **kw)
+[105.186s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[105.187s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[105.188s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 146, in _parse
+[105.189s]     to_scan = scan(i, to_scan)
+[105.190s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 55, in scan
+[105.192s]     t = Token(item.expect.name, m.group(0), i, text_line, text_column)
+[105.193s]   File "/usr/lib/python3/dist-packages/lark/lexer.py", line 160, in __new__
+[105.195s]     inst = super(Token, cls).__new__(cls, value)
+[105.197s] KeyboardInterrupt
+[105.358s] gmake[2]: *** [CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/build.make:298: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp] Interrupt
+[105.361s] gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/all] Interrupt
+[105.362s] gmake: *** [Makefile:146: all] Interrupt
+[105.375s] Invoked command in '/home/nano/ros2_uav_ws/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/px4_msgs -- -j4 -l4

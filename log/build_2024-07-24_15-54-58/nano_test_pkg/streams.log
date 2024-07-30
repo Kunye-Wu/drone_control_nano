@@ -1,0 +1,32 @@
+[10.700s] Invoking command in '/home/nano/ros2_uav_ws/build/nano_test_pkg': PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/nano_test_pkg/build --no-deps symlink_data --force
+[16.629s] running develop
+[16.635s] /home/nano/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[16.635s] !!
+[16.636s] 
+[16.637s]         ********************************************************************************
+[16.638s]         Please avoid running ``setup.py`` and ``easy_install``.
+[16.639s]         Instead, use pypa/build, pypa/installer or other
+[16.639s]         standards-based tools.
+[16.640s] 
+[16.641s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[16.642s]         ********************************************************************************
+[16.642s] 
+[16.645s] !!
+[16.645s]   easy_install.initialize_options(self)
+[20.480s] running egg_info
+[20.621s] writing nano_test_pkg.egg-info/PKG-INFO
+[20.625s] writing dependency_links to nano_test_pkg.egg-info/dependency_links.txt
+[20.626s] writing entry points to nano_test_pkg.egg-info/entry_points.txt
+[20.627s] writing requirements to nano_test_pkg.egg-info/requires.txt
+[20.628s] writing top-level names to nano_test_pkg.egg-info/top_level.txt
+[20.919s] reading manifest file 'nano_test_pkg.egg-info/SOURCES.txt'
+[20.924s] writing manifest file 'nano_test_pkg.egg-info/SOURCES.txt'
+[21.066s] running build_ext
+[21.067s] Creating /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano-test-pkg.egg-link (link to .)
+[21.082s] Installing open_loop_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+[21.083s] 
+[21.089s] Installed /home/nano/ros2_uav_ws/build/nano_test_pkg
+[21.091s] running symlink_data
+[21.093s] symbolically linking /home/nano/ros2_uav_ws/build/nano_test_pkg/resource/nano_test_pkg -> /home/nano/ros2_uav_ws/install/nano_test_pkg/share/ament_index/resource_index/packages
+[21.097s] symbolically linking /home/nano/ros2_uav_ws/build/nano_test_pkg/package.xml -> /home/nano/ros2_uav_ws/install/nano_test_pkg/share/nano_test_pkg
+[21.336s] Invoked command in '/home/nano/ros2_uav_ws/build/nano_test_pkg' returned '0': PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/nano_test_pkg/build --no-deps symlink_data --force

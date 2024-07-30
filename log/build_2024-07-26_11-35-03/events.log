@@ -1,0 +1,678 @@
+[0.000000] (-) TimerEvent: {}
+[0.001871] (drone_msgs) JobQueued: {'identifier': 'drone_msgs', 'dependencies': OrderedDict()}
+[0.002438] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.002648] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.002976] (px4_offboard) JobQueued: {'identifier': 'px4_offboard', 'dependencies': OrderedDict([('px4_msgs', '/home/nano/ros2_uav_ws/install/px4_msgs')])}
+[0.003233] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/nano/ros2_uav_ws/install/px4_msgs')])}
+[0.003353] (nano_test_pkg) JobQueued: {'identifier': 'nano_test_pkg', 'dependencies': OrderedDict([('drone_msgs', '/home/nano/ros2_uav_ws/install/drone_msgs'), ('px4_msgs', '/home/nano/ros2_uav_ws/install/px4_msgs'), ('px4_ros_com', '/home/nano/ros2_uav_ws/install/px4_ros_com')])}
+[0.003449] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.044480] (drone_msgs) JobStarted: {'identifier': 'drone_msgs'}
+[0.072555] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.098342] (-) TimerEvent: {}
+[0.126162] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.131378] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.134472] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nano/ros2_uav_ws/build/px4_msgs', '--', '-j4', '-l4'], 'cwd': '/home/nano/ros2_uav_ws/build/px4_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nano'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nano'), ('OLDPWD', '/home/nano/ros2_uav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1072'), ('SYSTEMD_EXEC_PID', '1265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2760'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nano/ros2_uav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nano'), ('JOURNAL_STREAM', '8:22892'), ('_', '/home/nano/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano-desktop:@/tmp/.ICE-unix/1244,unix/nano-desktop:/tmp/.ICE-unix/1244'), ('INVOCATION_ID', '7eff95074d8940c7a0cb7ab3bd201550'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRCUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6283bb86-8adf-44b7-ae60-500df53fca96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nano/ros2_uav_ws/build/px4_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:/home/nano/ros2_uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/build/nano_test_pkg:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble')]), 'shell': False}
+[0.156523] (drone_msgs) JobProgress: {'identifier': 'drone_msgs', 'progress': 'cmake'}
+[0.160278] (drone_msgs) JobProgress: {'identifier': 'drone_msgs', 'progress': 'build'}
+[0.161816] (drone_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nano/ros2_uav_ws/build/drone_msgs', '--', '-j4', '-l4'], 'cwd': '/home/nano/ros2_uav_ws/build/drone_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nano'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nano'), ('OLDPWD', '/home/nano/ros2_uav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1072'), ('SYSTEMD_EXEC_PID', '1265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2760'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nano/ros2_uav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nano'), ('JOURNAL_STREAM', '8:22892'), ('_', '/home/nano/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano-desktop:@/tmp/.ICE-unix/1244,unix/nano-desktop:/tmp/.ICE-unix/1244'), ('INVOCATION_ID', '7eff95074d8940c7a0cb7ab3bd201550'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRCUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6283bb86-8adf-44b7-ae60-500df53fca96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nano/ros2_uav_ws/build/drone_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:/home/nano/ros2_uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/build/nano_test_pkg:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble')]), 'shell': False}
+[0.186395] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[0.190794] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'build'}
+[0.192840] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nano/ros2_uav_ws/build/v4l2_camera', '--', '-j4', '-l4'], 'cwd': '/home/nano/ros2_uav_ws/build/v4l2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nano'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nano'), ('OLDPWD', '/home/nano/ros2_uav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1072'), ('SYSTEMD_EXEC_PID', '1265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2760'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nano/ros2_uav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nano'), ('JOURNAL_STREAM', '8:22892'), ('_', '/home/nano/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano-desktop:@/tmp/.ICE-unix/1244,unix/nano-desktop:/tmp/.ICE-unix/1244'), ('INVOCATION_ID', '7eff95074d8940c7a0cb7ab3bd201550'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRCUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6283bb86-8adf-44b7-ae60-500df53fca96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nano/ros2_uav_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:/home/nano/ros2_uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/build/nano_test_pkg:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble')]), 'shell': False}
+[0.198652] (-) TimerEvent: {}
+[0.299613] (-) TimerEvent: {}
+[0.400869] (-) TimerEvent: {}
+[0.490928] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.501077] (-) TimerEvent: {}
+[0.586930] (drone_msgs) StdoutLine: {'line': b'[  3%] Built target drone_msgs__cpp\n'}
+[0.601567] (-) TimerEvent: {}
+[0.608708] (drone_msgs) StdoutLine: {'line': b'[ 12%] Built target drone_msgs__rosidl_generator_c\n'}
+[0.665523] (v4l2_camera) StdoutLine: {'line': b'[ 50%] Built target v4l2_camera\n'}
+[0.686489] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.691029] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.701818] (-) TimerEvent: {}
+[0.751330] (drone_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_drone_msgs\n'}
+[0.766436] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.802268] (-) TimerEvent: {}
+[0.903592] (-) TimerEvent: {}
+[0.933512] (v4l2_camera) StdoutLine: {'line': b'[ 75%] Built target v4l2_camera_node\n'}
+[0.934880] (drone_msgs) StdoutLine: {'line': b'[ 25%] Built target drone_msgs__rosidl_typesupport_cpp\n'}
+[0.945128] (drone_msgs) StdoutLine: {'line': b'[ 35%] Built target drone_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.948309] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.952985] (drone_msgs) StdoutLine: {'line': b'[ 41%] Built target drone_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.996920] (v4l2_camera) StdoutLine: {'line': b'[100%] Built target v4l2_camera_compose_test\n'}
+[1.003754] (-) TimerEvent: {}
+[1.051952] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.089653] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[1.100817] (v4l2_camera) CommandEnded: {'returncode': 0}
+[1.104155] (-) TimerEvent: {}
+[1.153735] (drone_msgs) StdoutLine: {'line': b'[ 51%] Built target drone_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.191041] (drone_msgs) StdoutLine: {'line': b'[ 61%] Built target drone_msgs__rosidl_typesupport_c\n'}
+[1.200304] (drone_msgs) StdoutLine: {'line': b'[ 70%] Built target drone_msgs__rosidl_typesupport_introspection_c\n'}
+[1.204339] (-) TimerEvent: {}
+[1.305760] (-) TimerEvent: {}
+[1.359041] (drone_msgs) StdoutLine: {'line': b'[ 70%] Built target drone_msgs\n'}
+[1.406073] (-) TimerEvent: {}
+[1.509870] (-) TimerEvent: {}
+[1.515614] (drone_msgs) StdoutLine: {'line': b'[ 74%] Built target drone_msgs__py\n'}
+[1.549237] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'install'}
+[1.603046] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_generator_py\x1b[0m\n'}
+[1.614997] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nano/ros2_uav_ws/build/v4l2_camera'], 'cwd': '/home/nano/ros2_uav_ws/build/v4l2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nano'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nano'), ('OLDPWD', '/home/nano/ros2_uav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1072'), ('SYSTEMD_EXEC_PID', '1265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2760'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nano/ros2_uav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nano'), ('JOURNAL_STREAM', '8:22892'), ('_', '/home/nano/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano-desktop:@/tmp/.ICE-unix/1244,unix/nano-desktop:/tmp/.ICE-unix/1244'), ('INVOCATION_ID', '7eff95074d8940c7a0cb7ab3bd201550'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRCUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6283bb86-8adf-44b7-ae60-500df53fca96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nano/ros2_uav_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:/home/nano/ros2_uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/build/nano_test_pkg:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble')]), 'shell': False}
+[1.617061] (-) TimerEvent: {}
+[1.700220] (v4l2_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.703018] (v4l2_camera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.706366] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[1.708351] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[1.709518] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[1.711721] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/parameters.hpp\n'}
+[1.714267] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[1.715616] (drone_msgs) StdoutLine: {'line': b'[ 80%] Built target drone_msgs__rosidl_generator_py\n'}
+[1.716574] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[1.717951] (-) TimerEvent: {}
+[1.719385] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[1.720240] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[1.726153] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh\n'}
+[1.728528] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv\n'}
+[1.733257] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera\n'}
+[1.735454] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera\n'}
+[1.739604] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh\n'}
+[1.740727] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv\n'}
+[1.746150] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh\n'}
+[1.747404] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv\n'}
+[1.748374] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash\n'}
+[1.752989] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh\n'}
+[1.754301] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh\n'}
+[1.755774] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv\n'}
+[1.760122] (v4l2_camera) StdoutLine: {'line': b'-- Symlinking: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.dsv\n'}
+[1.810169] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.818157] (-) TimerEvent: {}
+[1.830259] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.858048] (drone_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.884031] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera\n'}
+[1.891570] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera\n'}
+[1.908179] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.919054] (-) TimerEvent: {}
+[1.935758] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.936867] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.942802] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.945657] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake\n'}
+[1.950808] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake\n'}
+[1.953915] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/package.xml\n'}
+[1.960330] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/lib/libv4l2_camera.so\n'}
+[1.969824] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node\n'}
+[1.981066] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test\n'}
+[1.991326] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake\n'}
+[1.993648] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake\n'}
+[2.013266] (v4l2_camera) CommandEnded: {'returncode': 0}
+[2.016767] (drone_msgs) StdoutLine: {'line': b'[ 87%] Built target drone_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.018457] (-) TimerEvent: {}
+[2.022576] (drone_msgs) StdoutLine: {'line': b'[ 93%] Built target drone_msgs__rosidl_typesupport_c__pyext\n'}
+[2.031269] (drone_msgs) StdoutLine: {'line': b'[100%] Built target drone_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.119458] (-) TimerEvent: {}
+[2.220480] (-) TimerEvent: {}
+[2.321676] (-) TimerEvent: {}
+[2.424506] (-) TimerEvent: {}
+[2.528397] (-) TimerEvent: {}
+[2.629642] (-) TimerEvent: {}
+[2.734452] (-) TimerEvent: {}
+[2.767754] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 0}
+[2.835018] (-) TimerEvent: {}
+[2.937032] (-) TimerEvent: {}
+[3.038445] (-) TimerEvent: {}
+[3.139527] (-) TimerEvent: {}
+[3.240735] (-) TimerEvent: {}
+[3.341809] (-) TimerEvent: {}
+[3.442627] (-) TimerEvent: {}
+[3.543588] (-) TimerEvent: {}
+[3.644517] (-) TimerEvent: {}
+[3.745677] (-) TimerEvent: {}
+[3.846691] (-) TimerEvent: {}
+[3.897355] (drone_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.946908] (-) TimerEvent: {}
+[4.048380] (-) TimerEvent: {}
+[4.149350] (-) TimerEvent: {}
+[4.160220] (drone_msgs) StdoutLine: {'line': b'writing drone_msgs.egg-info/PKG-INFO\n'}
+[4.165144] (drone_msgs) StdoutLine: {'line': b'writing dependency_links to drone_msgs.egg-info/dependency_links.txt\n'}
+[4.168783] (drone_msgs) StdoutLine: {'line': b'writing top-level names to drone_msgs.egg-info/top_level.txt\n'}
+[4.249598] (-) TimerEvent: {}
+[4.350681] (-) TimerEvent: {}
+[4.451752] (-) TimerEvent: {}
+[4.553149] (-) TimerEvent: {}
+[4.654207] (-) TimerEvent: {}
+[4.755183] (-) TimerEvent: {}
+[4.856409] (-) TimerEvent: {}
+[4.957554] (-) TimerEvent: {}
+[4.962394] (drone_msgs) StdoutLine: {'line': b"reading manifest file 'drone_msgs.egg-info/SOURCES.txt'\n"}
+[4.967441] (drone_msgs) StdoutLine: {'line': b"writing manifest file 'drone_msgs.egg-info/SOURCES.txt'\n"}
+[5.058029] (-) TimerEvent: {}
+[5.159837] (-) TimerEvent: {}
+[5.207658] (drone_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_drone_msgs_egg\n'}
+[5.260106] (-) TimerEvent: {}
+[5.284569] (drone_msgs) CommandEnded: {'returncode': 0}
+[5.360390] (-) TimerEvent: {}
+[5.461956] (-) TimerEvent: {}
+[5.563416] (-) TimerEvent: {}
+[5.664929] (-) TimerEvent: {}
+[5.767249] (-) TimerEvent: {}
+[5.868352] (-) TimerEvent: {}
+[5.884152] (drone_msgs) JobProgress: {'identifier': 'drone_msgs', 'progress': 'install'}
+[5.886496] (drone_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nano/ros2_uav_ws/build/drone_msgs'], 'cwd': '/home/nano/ros2_uav_ws/build/drone_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nano'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nano'), ('OLDPWD', '/home/nano/ros2_uav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1072'), ('SYSTEMD_EXEC_PID', '1265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2760'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nano/ros2_uav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nano'), ('JOURNAL_STREAM', '8:22892'), ('_', '/home/nano/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano-desktop:@/tmp/.ICE-unix/1244,unix/nano-desktop:/tmp/.ICE-unix/1244'), ('INVOCATION_ID', '7eff95074d8940c7a0cb7ab3bd201550'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GRCUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6283bb86-8adf-44b7-ae60-500df53fca96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nano/ros2_uav_ws/build/drone_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:/home/nano/ros2_uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/build/nano_test_pkg:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nano/ros2_uav_ws/install/drone_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/px4_offboard:/home/nano/ros2_uav_ws/install/nano_test_pkg:/opt/ros/humble')]), 'shell': False}
+[5.962210] (drone_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.964060] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/ament_index/resource_index/rosidl_interfaces/drone_msgs\n'}
+[5.965771] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[5.967091] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv\n'}
+[5.968519] (-) TimerEvent: {}
+[5.969505] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail\n'}
+[5.972557] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__functions.c\n'}
+[5.976300] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__functions.h\n'}
+[5.979424] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__type_support.h\n'}
+[5.983499] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__struct.h\n'}
+[5.986218] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/arm_disarm.h\n'}
+[5.988232] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[5.993404] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.006289] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/library_path.sh\n'}
+[6.015246] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/library_path.dsv\n'}
+[6.022665] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_c.so\n'}
+[6.029150] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[6.029985] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv\n'}
+[6.031884] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail\n'}
+[6.033217] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__rosidl_typesupport_fastrtps_c.h\n'}
+[6.034168] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[6.035009] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.036703] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.037657] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[6.039443] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv\n'}
+[6.040310] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail\n'}
+[6.041246] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__type_support.c\n'}
+[6.045495] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__rosidl_typesupport_introspection_c.h\n'}
+[6.046778] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[6.047910] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.049190] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.049938] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_c.so\n'}
+[6.050933] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[6.051882] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv\n'}
+[6.052845] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/arm_disarm.hpp\n'}
+[6.053652] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail\n'}
+[6.054559] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__traits.hpp\n'}
+[6.055433] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__struct.hpp\n'}
+[6.056267] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__builder.hpp\n'}
+[6.057042] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[6.058179] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv\n'}
+[6.059020] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail\n'}
+[6.059975] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.060842] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/dds_fastrtps\n'}
+[6.061738] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg\n'}
+[6.062832] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.063960] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.064966] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs\n'}
+[6.065846] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv\n'}
+[6.066711] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail\n'}
+[6.067996] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.068897] (-) TimerEvent: {}
+[6.069656] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/include/drone_msgs/drone_msgs/srv/detail/arm_disarm__type_support.cpp\n'}
+[6.070675] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.071656] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_typesupport_cpp.so\n'}
+[6.072713] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/pythonpath.sh\n'}
+[6.073616] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/pythonpath.dsv\n'}
+[6.074738] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info\n'}
+[6.075800] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.076636] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.078530] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.079526] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.080732] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs\n'}
+[6.082006] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/libdrone_msgs__rosidl_generator_py.so\n'}
+[6.082870] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv\n'}
+[6.083766] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv/_arm_disarm_s.c\n'}
+[6.084591] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv/__init__.py\n'}
+[6.085418] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv/_arm_disarm.py\n'}
+[6.086260] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.087374] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.088599] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.089613] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/__init__.py\n'}
+[6.090529] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.091503] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.092535] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/_drone_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.169157] (-) TimerEvent: {}
+[6.270340] (-) TimerEvent: {}
+[6.347822] (drone_msgs) StdoutLine: {'line': b"Listing '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs'...\n"}
+[6.350499] (drone_msgs) StdoutLine: {'line': b"Listing '/home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/srv'...\n"}
+[6.370944] (-) TimerEvent: {}
+[6.379726] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.383853] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.387818] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/local/lib/python3.10/dist-packages/drone_msgs/drone_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.391568] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/lib/libdrone_msgs__rosidl_generator_py.so\n'}
+[6.394228] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/srv/ArmDisarm.idl\n'}
+[6.396151] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/srv/ArmDisarm.srv\n'}
+[6.397629] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/srv/ArmDisarm_Request.msg\n'}
+[6.399516] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/srv/ArmDisarm_Response.msg\n'}
+[6.401400] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/ament_index/resource_index/package_run_dependencies/drone_msgs\n'}
+[6.403068] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/ament_index/resource_index/parent_prefix_path/drone_msgs\n'}
+[6.405124] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/ament_prefix_path.sh\n'}
+[6.407476] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/ament_prefix_path.dsv\n'}
+[6.409276] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/path.sh\n'}
+[6.411000] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/environment/path.dsv\n'}
+[6.412813] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/local_setup.bash\n'}
+[6.415069] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/local_setup.sh\n'}
+[6.418153] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/local_setup.zsh\n'}
+[6.419909] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/local_setup.dsv\n'}
+[6.421329] (drone_msgs) StdoutLine: {'line': b'-- Installing: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/package.dsv\n'}
+[6.424114] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/ament_index/resource_index/packages/drone_msgs\n'}
+[6.426611] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cExport.cmake\n'}
+[6.428566] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.430978] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.434533] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.437520] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.439521] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.441924] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.444296] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.446488] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.449243] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.451661] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.454378] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.456567] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.459615] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.461801] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.464923] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.467258] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/export_drone_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.469328] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.471166] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.472202] (-) TimerEvent: {}
+[6.474359] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.476534] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.478552] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.480408] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.482244] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.484492] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgsConfig.cmake\n'}
+[6.486110] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/cmake/drone_msgsConfig-version.cmake\n'}
+[6.488132] (drone_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nano/ros2_uav_ws/install/drone_msgs/share/drone_msgs/package.xml\n'}
+[6.501975] (drone_msgs) CommandEnded: {'returncode': 0}
+[6.542538] (px4_msgs) StderrLine: {'line': b"failed to create symbolic link '/home/nano/ros2_uav_ws/build/px4_msgs/ament_cmake_python/px4_msgs/px4_msgs' because existing path cannot be removed: Is a directory\n"}
+[6.552082] (px4_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_px4_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_px4_msgs] Error 1\n'}
+[6.553134] (px4_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_px4_msgs.dir/all] Error 2\n'}
+[6.553503] (px4_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.573011] (-) TimerEvent: {}
+[6.674216] (-) TimerEvent: {}
+[6.723392] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target px4_msgs__cpp\n'}
+[6.774450] (-) TimerEvent: {}
+[6.861596] (px4_msgs) StdoutLine: {'line': b'[ 12%] Built target px4_msgs__rosidl_generator_c\n'}
+[6.867442] (px4_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.874729] (-) TimerEvent: {}
+[6.877157] (px4_msgs) CommandEnded: {'returncode': 2}
+[6.974933] (-) TimerEvent: {}
+[7.075737] (-) TimerEvent: {}
+[7.140939] (drone_msgs) JobEnded: {'identifier': 'drone_msgs', 'rc': 0}
+[7.175963] (-) TimerEvent: {}
+[7.277660] (-) TimerEvent: {}
+[7.378899] (-) TimerEvent: {}
+[7.479926] (-) TimerEvent: {}
+[7.580812] (-) TimerEvent: {}
+[7.681700] (-) TimerEvent: {}
+[7.782804] (-) TimerEvent: {}
+[7.884974] (-) TimerEvent: {}
+[7.985979] (-) TimerEvent: {}
+[8.086885] (-) TimerEvent: {}
+[8.187901] (-) TimerEvent: {}
+[8.288979] (-) TimerEvent: {}
+[8.389939] (-) TimerEvent: {}
+[8.491180] (-) TimerEvent: {}
+[8.592357] (-) TimerEvent: {}
+[8.693281] (-) TimerEvent: {}
+[8.794187] (-) TimerEvent: {}
+[8.895218] (-) TimerEvent: {}
+[8.996393] (-) TimerEvent: {}
+[9.097429] (-) TimerEvent: {}
+[9.198449] (-) TimerEvent: {}
+[9.299700] (-) TimerEvent: {}
+[9.400754] (-) TimerEvent: {}
+[9.502051] (-) TimerEvent: {}
+[9.603309] (-) TimerEvent: {}
+[9.704318] (-) TimerEvent: {}
+[9.805254] (-) TimerEvent: {}
+[9.906414] (-) TimerEvent: {}
+[10.007511] (-) TimerEvent: {}
+[10.108546] (-) TimerEvent: {}
+[10.209818] (-) TimerEvent: {}
+[10.310936] (-) TimerEvent: {}
+[10.412096] (-) TimerEvent: {}
+[10.513326] (-) TimerEvent: {}
+[10.614355] (-) TimerEvent: {}
+[10.715405] (-) TimerEvent: {}
+[10.816622] (-) TimerEvent: {}
+[10.917492] (-) TimerEvent: {}
+[11.018659] (-) TimerEvent: {}
+[11.119536] (-) TimerEvent: {}
+[11.220227] (-) TimerEvent: {}
+[11.320908] (-) TimerEvent: {}
+[11.421628] (-) TimerEvent: {}
+[11.522401] (-) TimerEvent: {}
+[11.623196] (-) TimerEvent: {}
+[11.724109] (-) TimerEvent: {}
+[11.824817] (-) TimerEvent: {}
+[11.925488] (-) TimerEvent: {}
+[12.026204] (-) TimerEvent: {}
+[12.126973] (-) TimerEvent: {}
+[12.228177] (-) TimerEvent: {}
+[12.328983] (-) TimerEvent: {}
+[12.430299] (-) TimerEvent: {}
+[12.531043] (-) TimerEvent: {}
+[12.632156] (-) TimerEvent: {}
+[12.733247] (-) TimerEvent: {}
+[12.833961] (-) TimerEvent: {}
+[12.934822] (-) TimerEvent: {}
+[13.035716] (-) TimerEvent: {}
+[13.136423] (-) TimerEvent: {}
+[13.237444] (-) TimerEvent: {}
+[13.338170] (-) TimerEvent: {}
+[13.439218] (-) TimerEvent: {}
+[13.539928] (-) TimerEvent: {}
+[13.640654] (-) TimerEvent: {}
+[13.741614] (-) TimerEvent: {}
+[13.842290] (-) TimerEvent: {}
+[13.943206] (-) TimerEvent: {}
+[14.044075] (-) TimerEvent: {}
+[14.144884] (-) TimerEvent: {}
+[14.245645] (-) TimerEvent: {}
+[14.346368] (-) TimerEvent: {}
+[14.447497] (-) TimerEvent: {}
+[14.548352] (-) TimerEvent: {}
+[14.649563] (-) TimerEvent: {}
+[14.751043] (-) TimerEvent: {}
+[14.852200] (-) TimerEvent: {}
+[14.952896] (-) TimerEvent: {}
+[15.053789] (-) TimerEvent: {}
+[15.154847] (-) TimerEvent: {}
+[15.255666] (-) TimerEvent: {}
+[15.356344] (-) TimerEvent: {}
+[15.457121] (-) TimerEvent: {}
+[15.558087] (-) TimerEvent: {}
+[15.658769] (-) TimerEvent: {}
+[15.759519] (-) TimerEvent: {}
+[15.860272] (-) TimerEvent: {}
+[15.961576] (-) TimerEvent: {}
+[16.062680] (-) TimerEvent: {}
+[16.163583] (-) TimerEvent: {}
+[16.264280] (-) TimerEvent: {}
+[16.365183] (-) TimerEvent: {}
+[16.466102] (-) TimerEvent: {}
+[16.566897] (-) TimerEvent: {}
+[16.667760] (-) TimerEvent: {}
+[16.768583] (-) TimerEvent: {}
+[16.869434] (-) TimerEvent: {}
+[16.970091] (-) TimerEvent: {}
+[17.070844] (-) TimerEvent: {}
+[17.171764] (-) TimerEvent: {}
+[17.272494] (-) TimerEvent: {}
+[17.373484] (-) TimerEvent: {}
+[17.474331] (-) TimerEvent: {}
+[17.575257] (-) TimerEvent: {}
+[17.676058] (-) TimerEvent: {}
+[17.776988] (-) TimerEvent: {}
+[17.877678] (-) TimerEvent: {}
+[17.978551] (-) TimerEvent: {}
+[18.079278] (-) TimerEvent: {}
+[18.179946] (-) TimerEvent: {}
+[18.281064] (-) TimerEvent: {}
+[18.381706] (-) TimerEvent: {}
+[18.482635] (-) TimerEvent: {}
+[18.583640] (-) TimerEvent: {}
+[18.684878] (-) TimerEvent: {}
+[18.785572] (-) TimerEvent: {}
+[18.886245] (-) TimerEvent: {}
+[18.987054] (-) TimerEvent: {}
+[19.089629] (-) TimerEvent: {}
+[19.190405] (-) TimerEvent: {}
+[19.291817] (-) TimerEvent: {}
+[19.392605] (-) TimerEvent: {}
+[19.493350] (-) TimerEvent: {}
+[19.594222] (-) TimerEvent: {}
+[19.695189] (-) TimerEvent: {}
+[19.796264] (-) TimerEvent: {}
+[19.897157] (-) TimerEvent: {}
+[19.998347] (-) TimerEvent: {}
+[20.099650] (-) TimerEvent: {}
+[20.200428] (-) TimerEvent: {}
+[20.301380] (-) TimerEvent: {}
+[20.402251] (-) TimerEvent: {}
+[20.503088] (-) TimerEvent: {}
+[20.604017] (-) TimerEvent: {}
+[20.704730] (-) TimerEvent: {}
+[20.805466] (-) TimerEvent: {}
+[20.906282] (-) TimerEvent: {}
+[21.007014] (-) TimerEvent: {}
+[21.107777] (-) TimerEvent: {}
+[21.208489] (-) TimerEvent: {}
+[21.309494] (-) TimerEvent: {}
+[21.410332] (-) TimerEvent: {}
+[21.510974] (-) TimerEvent: {}
+[21.611810] (-) TimerEvent: {}
+[21.713007] (-) TimerEvent: {}
+[21.813960] (-) TimerEvent: {}
+[21.914700] (-) TimerEvent: {}
+[22.016218] (-) TimerEvent: {}
+[22.119882] (-) TimerEvent: {}
+[22.220835] (-) TimerEvent: {}
+[22.321640] (-) TimerEvent: {}
+[22.422497] (-) TimerEvent: {}
+[22.523143] (-) TimerEvent: {}
+[22.623968] (-) TimerEvent: {}
+[22.724650] (-) TimerEvent: {}
+[22.825431] (-) TimerEvent: {}
+[22.926477] (-) TimerEvent: {}
+[23.027268] (-) TimerEvent: {}
+[23.128402] (-) TimerEvent: {}
+[23.230052] (-) TimerEvent: {}
+[23.331018] (-) TimerEvent: {}
+[23.431981] (-) TimerEvent: {}
+[23.533134] (-) TimerEvent: {}
+[23.633923] (-) TimerEvent: {}
+[23.734842] (-) TimerEvent: {}
+[23.835741] (-) TimerEvent: {}
+[23.936464] (-) TimerEvent: {}
+[24.037266] (-) TimerEvent: {}
+[24.137984] (-) TimerEvent: {}
+[24.239242] (-) TimerEvent: {}
+[24.340019] (-) TimerEvent: {}
+[24.441034] (-) TimerEvent: {}
+[24.541850] (-) TimerEvent: {}
+[24.642550] (-) TimerEvent: {}
+[24.744423] (-) TimerEvent: {}
+[24.845469] (-) TimerEvent: {}
+[24.946547] (-) TimerEvent: {}
+[25.047567] (-) TimerEvent: {}
+[25.148373] (-) TimerEvent: {}
+[25.249109] (-) TimerEvent: {}
+[25.349780] (-) TimerEvent: {}
+[25.450473] (-) TimerEvent: {}
+[25.551203] (-) TimerEvent: {}
+[25.651831] (-) TimerEvent: {}
+[25.752580] (-) TimerEvent: {}
+[25.853815] (-) TimerEvent: {}
+[25.954562] (-) TimerEvent: {}
+[26.055363] (-) TimerEvent: {}
+[26.156721] (-) TimerEvent: {}
+[26.257422] (-) TimerEvent: {}
+[26.358415] (-) TimerEvent: {}
+[26.459105] (-) TimerEvent: {}
+[26.560031] (-) TimerEvent: {}
+[26.661040] (-) TimerEvent: {}
+[26.762200] (-) TimerEvent: {}
+[26.863136] (-) TimerEvent: {}
+[26.963940] (-) TimerEvent: {}
+[27.064650] (-) TimerEvent: {}
+[27.165415] (-) TimerEvent: {}
+[27.266311] (-) TimerEvent: {}
+[27.367059] (-) TimerEvent: {}
+[27.467776] (-) TimerEvent: {}
+[27.568594] (-) TimerEvent: {}
+[27.669701] (-) TimerEvent: {}
+[27.771056] (-) TimerEvent: {}
+[27.871927] (-) TimerEvent: {}
+[27.972617] (-) TimerEvent: {}
+[28.073293] (-) TimerEvent: {}
+[28.173973] (-) TimerEvent: {}
+[28.275164] (-) TimerEvent: {}
+[28.375935] (-) TimerEvent: {}
+[28.476650] (-) TimerEvent: {}
+[28.577672] (-) TimerEvent: {}
+[28.678367] (-) TimerEvent: {}
+[28.779073] (-) TimerEvent: {}
+[28.879953] (-) TimerEvent: {}
+[28.980628] (-) TimerEvent: {}
+[29.081283] (-) TimerEvent: {}
+[29.181904] (-) TimerEvent: {}
+[29.282732] (-) TimerEvent: {}
+[29.383958] (-) TimerEvent: {}
+[29.484606] (-) TimerEvent: {}
+[29.585298] (-) TimerEvent: {}
+[29.685969] (-) TimerEvent: {}
+[29.786825] (-) TimerEvent: {}
+[29.887921] (-) TimerEvent: {}
+[29.988645] (-) TimerEvent: {}
+[30.089400] (-) TimerEvent: {}
+[30.190108] (-) TimerEvent: {}
+[30.290965] (-) TimerEvent: {}
+[30.392281] (-) TimerEvent: {}
+[30.493075] (-) TimerEvent: {}
+[30.593812] (-) TimerEvent: {}
+[30.694604] (-) TimerEvent: {}
+[30.795597] (-) TimerEvent: {}
+[30.896474] (-) TimerEvent: {}
+[30.997208] (-) TimerEvent: {}
+[31.098018] (-) TimerEvent: {}
+[31.198670] (-) TimerEvent: {}
+[31.300218] (-) TimerEvent: {}
+[31.400986] (-) TimerEvent: {}
+[31.501643] (-) TimerEvent: {}
+[31.602421] (-) TimerEvent: {}
+[31.703369] (-) TimerEvent: {}
+[31.804339] (-) TimerEvent: {}
+[31.905112] (-) TimerEvent: {}
+[32.006016] (-) TimerEvent: {}
+[32.106976] (-) TimerEvent: {}
+[32.207928] (-) TimerEvent: {}
+[32.308691] (-) TimerEvent: {}
+[32.409402] (-) TimerEvent: {}
+[32.510095] (-) TimerEvent: {}
+[32.610917] (-) TimerEvent: {}
+[32.711703] (-) TimerEvent: {}
+[32.812384] (-) TimerEvent: {}
+[32.913618] (-) TimerEvent: {}
+[33.014514] (-) TimerEvent: {}
+[33.115457] (-) TimerEvent: {}
+[33.216117] (-) TimerEvent: {}
+[33.316818] (-) TimerEvent: {}
+[33.417578] (-) TimerEvent: {}
+[33.518830] (-) TimerEvent: {}
+[33.619697] (-) TimerEvent: {}
+[33.720901] (-) TimerEvent: {}
+[33.821541] (-) TimerEvent: {}
+[33.922380] (-) TimerEvent: {}
+[34.023035] (-) TimerEvent: {}
+[34.123797] (-) TimerEvent: {}
+[34.224724] (-) TimerEvent: {}
+[34.325687] (-) TimerEvent: {}
+[34.426506] (-) TimerEvent: {}
+[34.527193] (-) TimerEvent: {}
+[34.627965] (-) TimerEvent: {}
+[34.728799] (-) TimerEvent: {}
+[34.829569] (-) TimerEvent: {}
+[34.930439] (-) TimerEvent: {}
+[35.031692] (-) TimerEvent: {}
+[35.132977] (-) TimerEvent: {}
+[35.234272] (-) TimerEvent: {}
+[35.335001] (-) TimerEvent: {}
+[35.436076] (-) TimerEvent: {}
+[35.536827] (-) TimerEvent: {}
+[35.637562] (-) TimerEvent: {}
+[35.738639] (-) TimerEvent: {}
+[35.839366] (-) TimerEvent: {}
+[35.940285] (-) TimerEvent: {}
+[36.041534] (-) TimerEvent: {}
+[36.143492] (-) TimerEvent: {}
+[36.244415] (-) TimerEvent: {}
+[36.345830] (-) TimerEvent: {}
+[36.446628] (-) TimerEvent: {}
+[36.547453] (-) TimerEvent: {}
+[36.648279] (-) TimerEvent: {}
+[36.749000] (-) TimerEvent: {}
+[36.849649] (-) TimerEvent: {}
+[36.950328] (-) TimerEvent: {}
+[37.051268] (-) TimerEvent: {}
+[37.152565] (-) TimerEvent: {}
+[37.253386] (-) TimerEvent: {}
+[37.354143] (-) TimerEvent: {}
+[37.454821] (-) TimerEvent: {}
+[37.555749] (-) TimerEvent: {}
+[37.656457] (-) TimerEvent: {}
+[37.757192] (-) TimerEvent: {}
+[37.858033] (-) TimerEvent: {}
+[37.958709] (-) TimerEvent: {}
+[38.059406] (-) TimerEvent: {}
+[38.160769] (-) TimerEvent: {}
+[38.261540] (-) TimerEvent: {}
+[38.362552] (-) TimerEvent: {}
+[38.463487] (-) TimerEvent: {}
+[38.564118] (-) TimerEvent: {}
+[38.664764] (-) TimerEvent: {}
+[38.765606] (-) TimerEvent: {}
+[38.866265] (-) TimerEvent: {}
+[38.967234] (-) TimerEvent: {}
+[39.068155] (-) TimerEvent: {}
+[39.169022] (-) TimerEvent: {}
+[39.269868] (-) TimerEvent: {}
+[39.370526] (-) TimerEvent: {}
+[39.471390] (-) TimerEvent: {}
+[39.572005] (-) TimerEvent: {}
+[39.672746] (-) TimerEvent: {}
+[39.773549] (-) TimerEvent: {}
+[39.874449] (-) TimerEvent: {}
+[39.975838] (-) TimerEvent: {}
+[40.076635] (-) TimerEvent: {}
+[40.177461] (-) TimerEvent: {}
+[40.278218] (-) TimerEvent: {}
+[40.379115] (-) TimerEvent: {}
+[40.479881] (-) TimerEvent: {}
+[40.580671] (-) TimerEvent: {}
+[40.681411] (-) TimerEvent: {}
+[40.782151] (-) TimerEvent: {}
+[40.883514] (-) TimerEvent: {}
+[40.984478] (-) TimerEvent: {}
+[41.085819] (-) TimerEvent: {}
+[41.186777] (-) TimerEvent: {}
+[41.287498] (-) TimerEvent: {}
+[41.388292] (-) TimerEvent: {}
+[41.489157] (-) TimerEvent: {}
+[41.589896] (-) TimerEvent: {}
+[41.690585] (-) TimerEvent: {}
+[41.791268] (-) TimerEvent: {}
+[41.892270] (-) TimerEvent: {}
+[41.992950] (-) TimerEvent: {}
+[42.094102] (-) TimerEvent: {}
+[42.194822] (-) TimerEvent: {}
+[42.295526] (-) TimerEvent: {}
+[42.396349] (-) TimerEvent: {}
+[42.497157] (-) TimerEvent: {}
+[42.597948] (-) TimerEvent: {}
+[42.698670] (-) TimerEvent: {}
+[42.799418] (-) TimerEvent: {}
+[42.900864] (-) TimerEvent: {}
+[43.002031] (-) TimerEvent: {}
+[43.102851] (-) TimerEvent: {}
+[43.203642] (-) TimerEvent: {}
+[43.304324] (-) TimerEvent: {}
+[43.405504] (-) TimerEvent: {}
+[43.506624] (-) TimerEvent: {}
+[43.607391] (-) TimerEvent: {}
+[43.708077] (-) TimerEvent: {}
+[43.808887] (-) TimerEvent: {}
+[43.909885] (-) TimerEvent: {}
+[44.010964] (-) TimerEvent: {}
+[44.111886] (-) TimerEvent: {}
+[44.212608] (-) TimerEvent: {}
+[44.313444] (-) TimerEvent: {}
+[44.414275] (-) TimerEvent: {}
+[44.521167] (-) TimerEvent: {}
+[44.579212] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 2}
+[44.592473] (px4_offboard) JobSkipped: {'identifier': 'px4_offboard'}
+[44.593084] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[44.593524] (nano_test_pkg) JobSkipped: {'identifier': 'nano_test_pkg'}
+[44.593701] (-) EventReactorShutdown: {}
