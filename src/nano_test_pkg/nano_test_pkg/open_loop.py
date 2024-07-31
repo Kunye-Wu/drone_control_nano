@@ -15,16 +15,16 @@ class ArmDisarmNode(Node):
         self.counter = 0
         self.timer_ = self.create_timer(0.01, self.main_func)
     def main_func(self):
-        if self.counter == 150:
+        # if self.counter == 150:
+        if self.counter == 101:
+            self.send_mode_command()
             self.send_arm_command()
-        if self.counter == 301:
-            # self.send_mode_command()
-            self.send_takeoff_command()
-        # self.ocm()
+            # self.send_takeoff_command()
+        self.ocm()
         # self.send_arm_command() #Code to call send_arm_command every few seconds
             
         
-        if self.counter < 301:
+        if self.counter < 101:
             self.counter += 1
         print(self.counter)
     def ocm(self):
@@ -49,6 +49,9 @@ class ArmDisarmNode(Node):
         mode_msg.command = VehicleCommand.VEHICLE_CMD_DO_SET_MODE
         mode_msg.param1 = 1.0
         mode_msg.param2 = 6.0
+        #1,1 is manual, 1,2 is altitude, 1,3 is position
+        # 1,4 is also mission, 1,5 is acro, 1,6 is offboard
+        #2,2 is armed,2,4 is armed
         # Idk if we need the rest of this stuff
 
         mode_msg.target_system = 1
@@ -58,6 +61,7 @@ class ArmDisarmNode(Node):
         mode_msg.from_external = True
         mode_msg.timestamp = int(Clock().now().nanoseconds / 1000)
         self.arm_publisher_.publish(mode_msg)
+        self.get_logger().info("hh")
     def send_arm_command(self):
         # self.arm_toggle_ = not self.arm_toggle_ # Code to switch between arming/disarming nodes 
     

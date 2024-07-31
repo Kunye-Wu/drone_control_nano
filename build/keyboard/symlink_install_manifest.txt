@@ -1,0 +1,17 @@
+/home/nano/ros2_uav_ws/install/keyboard/lib/keyboard/keyboard
+/home/nano/ros2_uav_ws/install/keyboard/lib/keyboard/keyboard_to_joy.py
+/home/nano/ros2_uav_ws/install/keyboard/share/ament_index/resource_index/package_run_dependencies/keyboard
+/home/nano/ros2_uav_ws/install/keyboard/share/ament_index/resource_index/parent_prefix_path/keyboard
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/environment/ament_prefix_path.sh
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/environment/ament_prefix_path.dsv
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/environment/path.sh
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/environment/path.dsv
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/local_setup.bash
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/local_setup.sh
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/local_setup.zsh
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/local_setup.dsv
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/package.dsv
+/home/nano/ros2_uav_ws/install/keyboard/share/ament_index/resource_index/packages/keyboard
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/cmake/keyboardConfig.cmake
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/cmake/keyboardConfig-version.cmake
+/home/nano/ros2_uav_ws/install/keyboard/share/keyboard/package.xml

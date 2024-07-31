@@ -1,0 +1,6 @@
+Invoking command in '/home/nano/ros2_uav_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/ros2-keyboard/keyboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/keyboard_msgs
+Invoked command in '/home/nano/ros2_uav_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nano/ros2_uav_ws/src/ros2-keyboard/keyboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nano/ros2_uav_ws/install/keyboard_msgs
+Invoking command in '/home/nano/ros2_uav_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/keyboard_msgs -- -j4 -l4
+Invoked command in '/home/nano/ros2_uav_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/keyboard_msgs -- -j4 -l4
+Invoking command in '/home/nano/ros2_uav_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/keyboard_msgs
+Invoked command in '/home/nano/ros2_uav_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/keyboard_msgs

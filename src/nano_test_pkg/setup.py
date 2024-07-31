@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             "open_loop_exec = nano_test_pkg.open_loop:main",
             "hover_exec = nano_test_pkg.hover:main",
-            "takeoff_land_exec = nano_test_pkg.takeoff_land:main"
+            "takeoff_land_exec = nano_test_pkg.takeoff_land:main",
+            "offboard_exec = nano_test_pkg.offboard:main"
+
         ],
     },
 )

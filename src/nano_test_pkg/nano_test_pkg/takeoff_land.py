@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+# !usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from rclpy.clock import Clock
@@ -10,19 +10,22 @@ from keyboard_msgs.msg import Key
 class TakeoffLand(Node):
     def __init__(self):
         super().__init__("takeoff_land")
-        self.vc_publisher_ = self.create_publisher(VehicleCommand, '/fmu/in/vehicle_command', 10)
+        self.vc_publisher_ = self.create_publisher(VehicleCommand,'/fmu/in/vehicle_command', 10)
         self.key_subscriber_ = self.create_subscription(Key, "/keydown", self.main_func, 10)
         self.counter = 0
-        self.armed = 0.0
-        self.alt = 1
-        self.timer_ = self.create_timer(0.01, self.main_func)
+        self.armed = 1.0
+        self.alt = 1.0
+        # self.timer_ = self.create_timer(0.01, self.main_func)
     def main_func(self, msg: Key):
         if msg.code == 97:
-            self.send_vehicle_command(VehicleCommand.VEHICLE_CMD_COMPONENT_ARM_DISARM, param1= not self.armed)
-            self.armed = not self.armed
+            self.send_vehicle_command(VehicleCommand.VEHICLE_CMD_COMPONENT_ARM_DISARM, param1= self.armed)
+            if self.armed == 0.0:
+                self.armed = 1.0
+            else:
+                self.armed = 0.0
             self.get_logger().info(str(self.armed))
         elif msg.code == 115:
-            self.send_vehicle_command(VehicleCommand.VEHICLE_CMD_NAV_TAKEOFF, param1=0.0, param7 = self.alt)
+            self.send_vehicle_command(VehicleCommand.VEHICLE_CMD_NAV_TAKEOFF, param7 = self.alt)
             self.get_logger().info("takeoff")
         elif msg.code == 100:
             self.send_vehicle_command(VehicleCommand.VEHICLE_CMD_NAV_PRECLAND)
@@ -35,7 +38,7 @@ class TakeoffLand(Node):
             self.get_logger().info("altitude decreased: " + str(self.alt))
             
         
-    def send_vehicle_command(self, command, param1, param2, param7):
+    def send_vehicle_command(self, command, param1 = 0.0, param2=0.0, param7=0.0):
         msg = VehicleCommand()
         msg.command = command
         msg.param1 = param1

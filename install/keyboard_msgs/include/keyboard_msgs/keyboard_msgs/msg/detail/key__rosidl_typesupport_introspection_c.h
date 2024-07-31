@@ -1,0 +1,1 @@
+/home/nano/ros2_uav_ws/build/keyboard_msgs/rosidl_typesupport_introspection_c/keyboard_msgs/msg/detail/key__rosidl_typesupport_introspection_c.h

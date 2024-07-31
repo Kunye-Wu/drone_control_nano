@@ -1,3 +1,5 @@
 [console_scripts]
 hover_exec = nano_test_pkg.hover:main
+offboard_exec = nano_test_pkg.offboard:main
 open_loop_exec = nano_test_pkg.open_loop:main
+takeoff_land_exec = nano_test_pkg.takeoff_land:main

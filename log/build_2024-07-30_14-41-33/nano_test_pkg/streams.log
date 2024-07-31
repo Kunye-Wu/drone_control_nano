@@ -1,0 +1,32 @@
+[6.154s] Invoking command in '/home/nano/ros2_uav_ws/build/nano_test_pkg': AMENT_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/keyboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/keyboard_msgs LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/keyboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/nano_test_pkg/build --no-deps symlink_data
+[8.818s] running develop
+[8.819s] /home/nano/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[8.820s] !!
+[8.820s] 
+[8.821s]         ********************************************************************************
+[8.821s]         Please avoid running ``setup.py`` and ``easy_install``.
+[8.823s]         Instead, use pypa/build, pypa/installer or other
+[8.823s]         standards-based tools.
+[8.824s] 
+[8.824s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[8.825s]         ********************************************************************************
+[8.825s] 
+[8.826s] !!
+[8.826s]   easy_install.initialize_options(self)
+[10.312s] running egg_info
+[10.394s] writing nano_test_pkg.egg-info/PKG-INFO
+[10.397s] writing dependency_links to nano_test_pkg.egg-info/dependency_links.txt
+[10.398s] writing entry points to nano_test_pkg.egg-info/entry_points.txt
+[10.399s] writing requirements to nano_test_pkg.egg-info/requires.txt
+[10.400s] writing top-level names to nano_test_pkg.egg-info/top_level.txt
+[10.566s] reading manifest file 'nano_test_pkg.egg-info/SOURCES.txt'
+[10.573s] writing manifest file 'nano_test_pkg.egg-info/SOURCES.txt'
+[10.661s] running build_ext
+[10.661s] Creating /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano-test-pkg.egg-link (link to .)
+[10.666s] Installing hover_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+[10.667s] Installing open_loop_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+[10.668s] Installing takeoff_land_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+[10.669s] 
+[10.670s] Installed /home/nano/ros2_uav_ws/build/nano_test_pkg
+[10.670s] running symlink_data
+[10.836s] Invoked command in '/home/nano/ros2_uav_ws/build/nano_test_pkg' returned '0': AMENT_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/keyboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/keyboard_msgs LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/keyboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nano/ros2_uav_ws/build/nano_test_pkg/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages:/home/nano/ros2_uav_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/nano_test_pkg/build --no-deps symlink_data

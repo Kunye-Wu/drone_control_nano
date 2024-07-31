@@ -1,0 +1,1 @@
+/home/nano/ros2_uav_ws/src/ros2-keyboard/keyboard/scripts/keyboard_to_joy.py

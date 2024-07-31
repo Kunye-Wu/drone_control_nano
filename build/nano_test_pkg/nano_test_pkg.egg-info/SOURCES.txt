@@ -3,7 +3,9 @@ setup.cfg
 setup.py
 nano_test_pkg/__init__.py
 nano_test_pkg/hover.py
+nano_test_pkg/offboard.py
 nano_test_pkg/open_loop.py
+nano_test_pkg/takeoff_land.py
 nano_test_pkg.egg-info/PKG-INFO
 nano_test_pkg.egg-info/SOURCES.txt
 nano_test_pkg.egg-info/dependency_links.txt
