@@ -60,7 +60,6 @@ class Offboard(Node):
         offboard_msg.attitude = False
         offboard_msg.body_rate = False
         offboard_msg.timestamp = int(Clock().now().nanoseconds / 1000)
-
         self.offboard_publisher_.publish(offboard_msg)
         # self.get_logger().info("publishing offboard control mode")
     def traj(self, x=0.0, y=0.0, z=0.0):
@@ -84,44 +83,8 @@ class Offboard(Node):
         self.vc_publisher_.publish(msg)
         self.get_logger().info(str(command) + " published to")
 
-    def send_mode_command(self):
-        mode_msg = VehicleCommand()
-        mode_msg.command = VehicleCommand.VEHICLE_CMD_DO_SET_MODE
-        mode_msg.param1 = 2.0
-        mode_msg.param2 = 2.0
-        #1,1 is manual, 1,2 is altitude, 1,3 is position
-        # 1,4 is also mission, 1,5 is acro, 1,6 is offboard
-        #2,2 is armed,2,4 is armed
-        # Idk if we need the rest of this stuff
-
-        mode_msg.target_system = 1
-        mode_msg.target_component = 1
-        mode_msg.source_system = 1
-        mode_msg.source_component = 1
-        mode_msg.from_external = True
-        mode_msg.timestamp = int(Clock().now().nanoseconds / 1000)
-        self.arm_publisher_.publish(mode_msg)
-    def send_takeoff_command(self):
-        # self.arm_toggle_ = not self.arm_toggle_ # Code to switch between arming/disarming nodes 
-    
-        msg = VehicleCommand()
-        msg.param1 = 0.0
-        msg.param7 = 2.0
-        msg.command = VehicleCommand.VEHICLE_CMD_NAV_TAKEOFF
-        msg.target_system  = 1
-        msg.target_component = 1
-        msg.source_system = 1
-        msg.source_component = 1
-        # msg.from_external = True
-        msg.timestamp = int(Clock().now().nanoseconds / 1000)
-        self.arm_publisher_.publish(msg)
-
-        print("Arm toggle message sent")
-
-
 def main(args=None):
     rclpy.init(args=args)
     node = Offboard()
-    # node.send_arm_command() # Sends the command once
     rclpy.spin(node)
     rclpy.shutdown()
