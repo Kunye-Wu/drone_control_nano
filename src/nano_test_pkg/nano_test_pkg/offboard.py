@@ -14,10 +14,12 @@ class Offboard(Node):
         self.trajectory_publisher_ = self.create_publisher(TrajectorySetpoint, '/fmu/in/trajectory_setpoint', 10)
         self.key_subscriber_ = self.create_subscription(Key, "/keydown", self.main_func, 10)
         self.armed = 1.0
-        self.alt = 1.0
+        self.x = 0.0
+        self.y = 0.0
+        self.z = 0.0
         self.timer_ = self.create_timer(0.01, self.trajocm)
     def trajocm(self):
-        self.traj(z = -1.0)
+        self.traj(x = self.x, y = self.y, z = self.z)
         self.ocm()
     def main_func(self, msg: Key):
         if msg.code == 119: #set mode offboard
@@ -29,14 +31,26 @@ class Offboard(Node):
             else:
                 self.armed = 0.0
             self.get_logger().info(str(self.armed))
-        elif msg.code == 115:
+        elif msg.code == 115: #manual mode
             self.send_vehicle_command(VehicleCommand.VEHICLE_CMD_DO_SET_MODE, param1=1.0, param2 = 1.0)
-        elif msg.code == 105:
-            self.alt += 0.5
-            self.get_logger().info("altitude increased: " + str(self.alt))
-        elif msg.code == 107:
-            self.alt -= 0.5
-            self.get_logger().info("altitude decreased: " + str(self.alt))
+        elif msg.code == 121: #go up
+            self.z -= 0.1
+            self.get_logger().info(str(self.x) + " " + str(self.y) + " " + str(self.z))
+        elif msg.code == 104: #go down
+            self.z += 0.1
+            self.get_logger().info(str(self.x) + " " + str(self.y) + " " + str(self.z))
+        elif msg.code == 105: #go forward
+            self.x += 0.1
+            self.get_logger().info(str(self.x) + " " + str(self.y) + " " + str(self.z))
+        elif msg.code == 107: #go backward
+            self.x -= 0.1
+            self.get_logger().info(str(self.x) + " " + str(self.y) + " " + str(self.z))
+        elif msg.code == 106: #go left
+            self.y -= 0.1
+            self.get_logger().info(str(self.x) + " " + str(self.y) + " " + str(self.z))
+        elif msg.code == 108: #go right
+            self.y += 0.1
+            self.get_logger().info(str(self.x) + " " + str(self.y) + " " + str(self.z))
             
     def ocm(self):
         offboard_msg = OffboardControlMode()
