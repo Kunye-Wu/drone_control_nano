@@ -1,1 +1,1 @@
-keyboard_msgs:px4_msgs:px4_ros_com:rclpy
+cv2:cv_bridge:geometry_msgs:keyboard_msgs:numpy:px4_msgs:px4_ros_com:rclpy:sensor_msgs

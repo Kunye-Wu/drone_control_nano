@@ -16,7 +16,7 @@ class Offboard(Node):
         self.armed = 1.0
         self.x = 0.0
         self.y = 0.0
-        self.z = 0.0
+        self.z = -1.0
         self.timer_ = self.create_timer(0.01, self.trajocm)
     def trajocm(self):
         self.traj(x = self.x, y = self.y, z = self.z)
@@ -65,7 +65,7 @@ class Offboard(Node):
     def traj(self, x=0.0, y=0.0, z=0.0):
         trajectory_msg = TrajectorySetpoint()
         trajectory_msg.position = [x, y, z]
-        trajectory_msg.yaw = 0.0
+        trajectory_msg.yaw = -3.1415
         trajectory_msg.timestamp = int(Clock().now().nanoseconds / 1000)
         self.trajectory_publisher_.publish(trajectory_msg)
         # self.get_logger().info("trajectory setpoint")

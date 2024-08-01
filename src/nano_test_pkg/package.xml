@@ -7,7 +7,13 @@
   <maintainer email="nano@todo.todo">nano</maintainer>
   <license>TODO: License declaration</license>
 
+
   <depend>rclpy</depend>
+  <depend>cv_bridge</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv2</depend>
+  <depend>numpy</depend>
   <depend>px4_msgs</depend>
   <depend>px4_ros_com</depend>
   <!-- <depend>drone_msgs</depend> -->

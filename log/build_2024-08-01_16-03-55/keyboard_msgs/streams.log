@@ -1,0 +1,118 @@
+[0.181s] Invoking command in '/home/nano/ros2_uav_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/keyboard_msgs -- -j4 -l4
+[0.901s] [  3%] Built target keyboard_msgs__cpp
+[0.947s] [  3%] Built target ament_cmake_python_symlink_keyboard_msgs
+[1.039s] [ 12%] Built target keyboard_msgs__rosidl_generator_c
+[1.179s] [ 22%] Built target keyboard_msgs__rosidl_typesupport_cpp
+[1.261s] [ 32%] Built target keyboard_msgs__rosidl_typesupport_introspection_cpp
+[1.268s] [ 41%] Built target keyboard_msgs__rosidl_typesupport_fastrtps_cpp
+[1.569s] [ 51%] Built target keyboard_msgs__rosidl_typesupport_fastrtps_c
+[1.610s] [ 61%] Built target keyboard_msgs__rosidl_typesupport_introspection_c
+[1.617s] [ 70%] Built target keyboard_msgs__rosidl_typesupport_c
+[1.814s] [ 70%] Built target keyboard_msgs
+[2.014s] [ 74%] Built target keyboard_msgs__py
+[2.301s] [ 80%] Built target keyboard_msgs__rosidl_generator_py
+[2.557s] [ 87%] Built target keyboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.641s] [ 93%] Built target keyboard_msgs__rosidl_typesupport_c__pyext
+[2.699s] [100%] Built target keyboard_msgs__rosidl_typesupport_introspection_c__pyext
+[3.930s] running egg_info
+[4.185s] writing keyboard_msgs.egg-info/PKG-INFO
+[4.189s] writing dependency_links to keyboard_msgs.egg-info/dependency_links.txt
+[4.194s] writing top-level names to keyboard_msgs.egg-info/top_level.txt
+[4.966s] reading manifest file 'keyboard_msgs.egg-info/SOURCES.txt'
+[4.974s] writing manifest file 'keyboard_msgs.egg-info/SOURCES.txt'
+[5.203s] [100%] Built target ament_cmake_python_build_keyboard_msgs_egg
+[5.277s] Invoked command in '/home/nano/ros2_uav_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/nano/ros2_uav_ws/build/keyboard_msgs -- -j4 -l4
+[5.805s] Invoking command in '/home/nano/ros2_uav_ws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/keyboard_msgs
+[5.860s] -- Install configuration: ""
+[5.872s] -- Execute custom install script
+[5.876s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/ament_index/resource_index/rosidl_interfaces/keyboard_msgs
+[5.883s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__functions.h
+[5.888s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__struct.h
+[5.890s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__type_support.h
+[5.892s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/key.h
+[5.893s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.895s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/environment/library_path.sh
+[5.896s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/environment/library_path.dsv
+[5.900s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__rosidl_typesupport_fastrtps_c.h
+[5.902s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.905s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__builder.hpp
+[5.908s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__struct.hpp
+[5.909s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__traits.hpp
+[5.911s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/key.hpp
+[5.916s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__rosidl_typesupport_fastrtps_cpp.hpp
+[5.922s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.925s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__rosidl_typesupport_introspection_c.h
+[5.927s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.930s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/include/keyboard_msgs/keyboard_msgs/msg/detail/key__rosidl_typesupport_introspection_cpp.hpp
+[5.932s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/environment/pythonpath.sh
+[5.933s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/environment/pythonpath.dsv
+[5.937s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[5.938s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[5.940s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[5.941s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[5.948s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/__init__.py
+[5.954s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/_keyboard_msgs_s.ep.rosidl_typesupport_c.c
+[5.956s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/_keyboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.957s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/_keyboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.959s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.961s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.963s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.965s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/libkeyboard_msgs__rosidl_generator_py.so
+[5.967s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg/__init__.py
+[5.969s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg/_key.py
+[5.971s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg/_key_s.c
+[5.973s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.976s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.978s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/keyboard_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.981s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/msg/Key.idl
+[5.982s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/msg/Key.msg
+[5.986s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/ament_index/resource_index/package_run_dependencies/keyboard_msgs
+[5.991s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/ament_index/resource_index/parent_prefix_path/keyboard_msgs
+[5.993s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/environment/ament_prefix_path.sh
+[5.994s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/environment/ament_prefix_path.dsv
+[5.996s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/environment/path.sh
+[5.997s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/environment/path.dsv
+[6.000s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/local_setup.bash
+[6.004s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/local_setup.sh
+[6.007s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/local_setup.zsh
+[6.010s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/local_setup.dsv
+[6.011s] -- Symlinking: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/package.dsv
+[6.058s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/ament_index/resource_index/packages/keyboard_msgs
+[6.061s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/rosidl_cmake-extras.cmake
+[6.063s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.065s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.067s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.069s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.073s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.076s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.082s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgsConfig.cmake
+[6.092s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgsConfig-version.cmake
+[6.093s] -- Up-to-date symlink: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/package.xml
+[6.101s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_generator_c.so
+[6.109s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_fastrtps_c.so
+[6.112s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.115s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_introspection_c.so
+[6.123s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_c.so
+[6.127s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_introspection_cpp.so
+[6.131s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_typesupport_cpp.so
+[6.465s] Listing '/home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs'...
+[6.468s] Listing '/home/nano/ros2_uav_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages/keyboard_msgs/msg'...
+[6.511s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/lib/libkeyboard_msgs__rosidl_generator_py.so
+[6.543s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_cExport.cmake
+[6.544s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.549s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.558s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.562s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_cppExport.cmake
+[6.566s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.568s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.574s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.575s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.582s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_cExport.cmake
+[6.588s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.598s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.600s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.611s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_cppExport.cmake
+[6.613s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/keyboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.621s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_pyExport.cmake
+[6.621s] -- Up-to-date: /home/nano/ros2_uav_ws/install/keyboard_msgs/share/keyboard_msgs/cmake/export_keyboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.641s] Invoked command in '/home/nano/ros2_uav_ws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nano/ros2_uav_ws/install/nano_test_pkg:/home/nano/ros2_uav_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/nano/ros2_uav_ws/build/keyboard_msgs

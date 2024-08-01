@@ -1,0 +1,32 @@
+running develop
+/home/nano/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing nano_test_pkg.egg-info/PKG-INFO
+writing dependency_links to nano_test_pkg.egg-info/dependency_links.txt
+writing entry points to nano_test_pkg.egg-info/entry_points.txt
+writing requirements to nano_test_pkg.egg-info/requires.txt
+writing top-level names to nano_test_pkg.egg-info/top_level.txt
+reading manifest file 'nano_test_pkg.egg-info/SOURCES.txt'
+writing manifest file 'nano_test_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/python3.10/site-packages/nano-test-pkg.egg-link (link to .)
+Installing challenge0_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+Installing hover_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+Installing offboard_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+Installing open_loop_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+Installing takeoff_land_exec script to /home/nano/ros2_uav_ws/install/nano_test_pkg/lib/nano_test_pkg
+
+Installed /home/nano/ros2_uav_ws/build/nano_test_pkg
+running symlink_data

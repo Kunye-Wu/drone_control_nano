@@ -1,0 +1,34 @@
+[6.775s] Invoking command in '/home/nano/ros2_uav_ws/build/px4_offboard': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/keyboard:/home/nano/ros2_uav_ws/install/keyboard_msgs LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/px4_offboard/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/px4_offboard/build --no-deps symlink_data
+[9.072s] running develop
+[9.078s] /home/nano/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[9.078s] !!
+[9.079s] 
+[9.080s]         ********************************************************************************
+[9.081s]         Please avoid running ``setup.py`` and ``easy_install``.
+[9.081s]         Instead, use pypa/build, pypa/installer or other
+[9.082s]         standards-based tools.
+[9.082s] 
+[9.083s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[9.083s]         ********************************************************************************
+[9.083s] 
+[9.084s] !!
+[9.084s]   easy_install.initialize_options(self)
+[10.976s] running egg_info
+[11.091s] writing px4_offboard.egg-info/PKG-INFO
+[11.095s] writing dependency_links to px4_offboard.egg-info/dependency_links.txt
+[11.097s] writing entry points to px4_offboard.egg-info/entry_points.txt
+[11.099s] writing requirements to px4_offboard.egg-info/requires.txt
+[11.100s] writing top-level names to px4_offboard.egg-info/top_level.txt
+[11.340s] reading manifest file 'px4_offboard.egg-info/SOURCES.txt'
+[11.348s] writing manifest file 'px4_offboard.egg-info/SOURCES.txt'
+[11.475s] running build_ext
+[11.475s] Creating /home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages/px4-offboard.egg-link (link to .)
+[11.479s] Installing control script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[11.484s] Installing offboard_control script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[11.485s] Installing processes script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[11.489s] Installing velocity_control script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[11.490s] Installing visualizer script to /home/nano/ros2_uav_ws/install/px4_offboard/lib/px4_offboard
+[11.490s] 
+[11.491s] Installed /home/nano/ros2_uav_ws/build/px4_offboard
+[11.491s] running symlink_data
+[11.715s] Invoked command in '/home/nano/ros2_uav_ws/build/px4_offboard' returned '0': CMAKE_PREFIX_PATH=/home/nano/ros2_uav_ws/install/px4_msgs:/home/nano/ros2_uav_ws/install/v4l2_camera:/home/nano/ros2_uav_ws/install/px4_ros_com:/home/nano/ros2_uav_ws/install/keyboard:/home/nano/ros2_uav_ws/install/keyboard_msgs LD_LIBRARY_PATH=/home/nano/ros2_uav_ws/install/px4_msgs/lib:/home/nano/ros2_uav_ws/install/v4l2_camera/lib:/home/nano/ros2_uav_ws/install/px4_ros_com/lib:/home/nano/ros2_uav_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/nano/ros2_uav_ws/build/px4_offboard/prefix_override:/home/nano/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/nano/ros2_uav_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nano/ros2_uav_ws/build/px4_offboard/build --no-deps symlink_data
