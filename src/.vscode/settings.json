@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/nano/ros2_uav_ws/build/nano_test_pkg",
+        "/home/vboxuser/fake_ws/drone_control_nano/install/nano_test_pkg/lib/python3.10/site-packages",
+        "/home/nano/ros2_uav_ws/build/px4_offboard",
+        "/home/vboxuser/fake_ws/drone_control_nano/install/px4_offboard/lib/python3.10/site-packages",
+        "/home/vboxuser/ros2_ws/build/my_robot_controller",
+        "/home/vboxuser/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/tera_ws/install/tera_controller_pkg/lib/python3.10/site-packages",
+        "/home/vboxuser/tera_ws/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/tera_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/nano/ros2_uav_ws/build/nano_test_pkg",
+        "/home/vboxuser/fake_ws/drone_control_nano/install/nano_test_pkg/lib/python3.10/site-packages",
+        "/home/nano/ros2_uav_ws/build/px4_offboard",
+        "/home/vboxuser/fake_ws/drone_control_nano/install/px4_offboard/lib/python3.10/site-packages",
+        "/home/vboxuser/ros2_ws/build/my_robot_controller",
+        "/home/vboxuser/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/tera_ws/install/tera_controller_pkg/lib/python3.10/site-packages",
+        "/home/vboxuser/tera_ws/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/tera_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/home/vboxuser/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

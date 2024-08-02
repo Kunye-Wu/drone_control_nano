@@ -16,6 +16,7 @@
   <depend>numpy</depend>
   <depend>px4_msgs</depend>
   <depend>px4_ros_com</depend>
+  <depend>serial</depend>
   <!-- <depend>drone_msgs</depend> -->
   <depend>keyboard_msgs</depend>
 

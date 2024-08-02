@@ -68,7 +68,7 @@ class ArucoPoseEstimator(Node):
         
         if len(corners) > 0:
             rvecs, tvecs, _ = self.my_estimatePoseSingleMarkers(corners, self.marker_size, matrix_coefficients, distortion_coefficients)
-            
+            self.get_logger().info(str(ids))
             for i in range(len(ids)):
                 # Draw detected markers and axes for visualization
                 cv2.aruco.drawDetectedMarkers(frame, corners)

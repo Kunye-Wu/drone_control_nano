@@ -24,7 +24,8 @@ setup(
             "hover_exec = nano_test_pkg.hover:main",
             "takeoff_land_exec = nano_test_pkg.takeoff_land:main",
             "offboard_exec = nano_test_pkg.offboard:main",
-            "challenge0_exec = nano_test_pkg.challenge0:main"
+            "challenge0_exec = nano_test_pkg.challenge0:main",
+            "tera_exec = nano_test_pkg.tera:main"
         ],
     },
 )
